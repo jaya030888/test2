@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Signup UI for phone</title>
+
+    <!-- Google Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #f3e8ff, #e8d7ff, #f7eaff);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            padding-top: 40px;
+        }
+
+        .container {
+            background: #fff;
+            width: 380px;
+            padding: 30px 25px;
+            border-radius: 28px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        }
+
+        .tabs {
+            display: flex;
+            background: #f8f4fc;
+            padding: 5px;
+            border-radius: 15px;
+            margin-bottom: 25px;
+        }
+
+        .tab {
+            flex: 1;
+            padding: 12px 0;
+            border: none;
+            background: transparent;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 12px;
+            transition: 0.3s;
+        }
+
+        .tab.active {
+            background: linear-gradient(90deg, #fbc2eb, #e6c8ff);
+            font-weight: 600;
+        }
+
+        .form {
+            display: none;
+            flex-direction: vertical;
+            gap: 15px;
+        }
+
+        .form.active {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+
+        .input-box {
+            position: relative;
+        }
+
+        .input-box input {
+            width: 100%;
+            padding: 14px 48px;
+            border: none;
+            border-radius: 14px;
+            background: #f5f2f0;
+            font-size: 15px;
+        }
+
+        .icon {
+            position: absolute;
+            left: 14px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 20px;
+            color: #9b9b9b;
+        }
+
+        .eye {
+            position: absolute;
+            right: 14px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            color: #8c8c8c;
+        }
+
+        .forgot {
+            text-align: right;
+            font-size: 14px;
+            color: #6a6a6a;
+            cursor: pointer;
+            margin-top: -10px;
+        }
+
+        .create-btn {
+            background: linear-gradient(90deg, #fbc2eb, #e6c8ff);
+            border: none;
+            width: 100%;
+            padding: 15px;
+            border-radius: 14px;
+            margin-top: 10px;
+            font-size: 17px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .divider {
+            text-align: center;
+            color: #666;
+            margin: 25px 0;
+            font-size: 14px;
+        }
+
+        .divider span {
+            display: inline-block;
+            width: 25%;
+            height: 1px;
+            background: #ddd;
+            margin: 0 7px;
+        }
+
+        .social-btn {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            border: 1px solid #f2dede;
+            padding: 14px;
+            border-radius: 14px;
+            margin-bottom: 12px;
+            cursor: pointer;
+        }
+
+        .social-btn img {
+            width: 24px;
+        }
+
+        .footer-text {
+            text-align: center;
+            font-size: 13px;
+            color: #777;
+            margin-top: 20px;
+        }
+
+        .footer-text a {
+            color: #845ec2;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Tabs -->
+    <div class="tabs">
+        <button id="loginTab" class="tab active">Login</button>
+        <button id="signupTab" class="tab">Sign Up</button>
+    </div>
+
+    <!-- Login Form -->
+    <form id="loginForm" class="form active">
+
+        <div class="input-box">
+            <span class="material-symbols-outlined icon">mail</span>
+            <input type="email" placeholder="Email Address">
+        </div>
+
+        <div class="input-box">
+            <span class="material-symbols-outlined icon">lock</span>
+            <input type="password" placeholder="Password">
+            <span class="material-symbols-outlined eye">visibility</span>
+        </div>
+
+        <p class="forgot">Forgot Password?</p>
+
+        <button class="create-btn">Login</button>
+
+    </form>
+
+    <!-- Signup Form -->
+    <form id="signupForm" class="form">
+
+        <div class="input-box">
+            <span class="material-symbols-outlined icon">person</span>
+            <input type="text" placeholder="Full Name">
+        </div>
+
+        <div class="input-box">
+            <span class="material-symbols-outlined icon">mail</span>
+            <input type="email" placeholder="Email Address">
+        </div>
+
+        <div class="input-box">
+            <span class="material-symbols-outlined icon">call</span>
+            <input type="text" placeholder="Phone Number (Optional)">
+        </div>
+
+        <div class="input-box">
+            <span class="material-symbols-outlined icon">lock</span>
+            <input type="password" placeholder="Password">
+            <span class="material-symbols-outlined eye">visibility</span>
+        </div>
+
+        <button class="create-btn">Create Account</button>
+
+    </form>
+
+    <div class="divider">
+        <span></span> or continue with <span></span>
+    </div>
+
+    <div class="social-btn google">
+        <img src="https://www.svgrepo.com/show/475656/google-color.svg">
+        <p>Google</p>
+    </div>
+
+    <div class="social-btn facebook">
+        <img src="https://www.svgrepo.com/show/448224/facebook.svg">
+        <p>Facebook</p>
+    </div>
+
+    <p class="footer-text">
+        By continuing, you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
+    </p>
+
+</div>
+
+ <script>
+    const loginTab = document.getElementById("loginTab");
+    const signupTab = document.getElementById("signupTab");
+
+    const loginForm = document.getElementById("loginForm");
+    const signupForm = document.getElementById("signupForm");
+
+    loginTab.onclick = () => {
+        loginTab.classList.add("active");
+        signupTab.classList.remove("active");
+
+        loginForm.classList.add("active");
+        signupForm.classList.remove("active");
+    };
+
+    signupTab.onclick = () => {
+        signupTab.classList.add("active");
+        loginTab.classList.remove("active");
+
+        signupForm.classList.add("active");
+        loginForm.classList.remove("active");
+    };
+</script>
+
+</body>
+</html>
