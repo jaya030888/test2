@@ -1,0 +1,63 @@
+{
+  "maths": [
+    { "id": 1, "question": "What is the value of 7 × 8?", "options": ["54", "56", "64", "48"], "answer": "56", "level": "easy" },
+    { "id": 2, "question": "What is the square root of 81?", "options": ["7", "8", "9", "10"], "answer": "9", "level": "easy" },
+    { "id": 3, "question": "What is 15% of 200?", "options": ["25", "30", "35", "40"], "answer": "30", "level": "easy" },
+    { "id": 4, "question": "What is the value of 12 ÷ 4?", "options": ["2", "3", "4", "6"], "answer": "3", "level": "easy" },
+    { "id": 5, "question": "What is the value of 5²?", "options": ["10", "20", "25", "30"], "answer": "25", "level": "easy" },
+
+    { "id": 6, "question": "What is the LCM of 4 and 6?", "options": ["6", "12", "24", "36"], "answer": "12", "level": "easy" },
+    { "id": 7, "question": "What is the HCF of 12 and 18?", "options": ["2", "3", "6", "12"], "answer": "6", "level": "easy" },
+    { "id": 8, "question": "What is 3³?", "options": ["6", "9", "27", "81"], "answer": "27", "level": "easy" },
+    { "id": 9, "question": "What is the perimeter of a square of side 4 cm?", "options": ["8 cm", "12 cm", "16 cm", "20 cm"], "answer": "16 cm", "level": "easy" },
+    { "id": 10, "question": "What is the area of a rectangle with length 5 and width 4?", "options": ["9", "20", "25", "40"], "answer": "20", "level": "easy" },
+
+    { "id": 11, "question": "What is the value of π (approx)?", "options": ["3.12", "3.14", "3.41", "3.04"], "answer": "3.14", "level": "easy" },
+    { "id": 12, "question": "What is the sum of angles of a triangle?", "options": ["90°", "180°", "270°", "360°"], "answer": "180°", "level": "easy" },
+    { "id": 13, "question": "What is 1000 − 457?", "options": ["543", "553", "563", "573"], "answer": "543", "level": "easy" },
+    { "id": 14, "question": "What is the cube root of 27?", "options": ["2", "3", "4", "5"], "answer": "3", "level": "easy" },
+    { "id": 15, "question": "Which number is even?", "options": ["7", "9", "11", "12"], "answer": "12", "level": "easy" },
+
+    { "id": 16, "question": "Which number is prime?", "options": ["4", "6", "9", "11"], "answer": "11", "level": "easy" },
+    { "id": 17, "question": "What is the value of 2 + 3 × 4?", "options": ["14", "20", "24", "10"], "answer": "14", "level": "medium" },
+    { "id": 18, "question": "What is the mean of 2, 4, 6?", "options": ["3", "4", "5", "6"], "answer": "4", "level": "easy" },
+    { "id": 19, "question": "What is the value of 45 ÷ 5?", "options": ["7", "8", "9", "10"], "answer": "9", "level": "easy" },
+    { "id": 20, "question": "How many sides does a hexagon have?", "options": ["5", "6", "7", "8"], "answer": "6", "level": "easy" },
+
+    { "id": 21, "question": "What is 20% of 150?", "options": ["20", "25", "30", "35"], "answer": "30", "level": "easy" },
+    { "id": 22, "question": "What is the value of 9² − 5²?", "options": ["56", "46", "36", "26"], "answer": "56", "level": "medium" },
+    { "id": 23, "question": "What is the distance formula?", "options": ["√((x2-x1)²+(y2-y1)²)", "x2-x1", "y2-y1", "x+y"], "answer": "√((x2-x1)²+(y2-y1)²)", "level": "medium" },
+    { "id": 24, "question": "What is the value of |−15|?", "options": ["-15", "15", "0", "30"], "answer": "15", "level": "easy" },
+    { "id": 25, "question": "What is 1 km in meters?", "options": ["100 m", "500 m", "1000 m", "1500 m"], "answer": "1000 m", "level": "easy" },
+
+    { "id": 26, "question": "Which is an acute angle?", "options": ["30°", "90°", "120°", "180°"], "answer": "30°", "level": "easy" },
+    { "id": 27, "question": "What is the value of 0 factorial (0!)?", "options": ["0", "1", "Undefined", "Infinity"], "answer": "1", "level": "medium" },
+    { "id": 28, "question": "What is the slope of a horizontal line?", "options": ["0", "1", "∞", "-1"], "answer": "0", "level": "medium" },
+    { "id": 29, "question": "What is the value of 10³?", "options": ["100", "1000", "30", "300"], "answer": "1000", "level": "easy" },
+    { "id": 30, "question": "Which number is divisible by 3?", "options": ["14", "21", "25", "28"], "answer": "21", "level": "easy" },
+
+    { "id": 31, "question": "What is the area of a circle with radius 7? (π=22/7)", "options": ["154", "144", "164", "174"], "answer": "154", "level": "medium" },
+    { "id": 32, "question": "What is the value of sin 90°?", "options": ["0", "1", "-1", "Undefined"], "answer": "1", "level": "medium" },
+    { "id": 33, "question": "What is the median of 1, 3, 5?", "options": ["1", "3", "5", "9"], "answer": "3", "level": "easy" },
+    { "id": 34, "question": "What is the mode of 2, 3, 3, 5?", "options": ["2", "3", "5", "None"], "answer": "3", "level": "easy" },
+    { "id": 35, "question": "What is 75% as a fraction?", "options": ["3/4", "1/2", "2/3", "4/5"], "answer": "3/4", "level": "medium" },
+
+    { "id": 36, "question": "How many degrees in a straight angle?", "options": ["90°", "180°", "270°", "360°"], "answer": "180°", "level": "easy" },
+    { "id": 37, "question": "What is the value of log₁₀1?", "options": ["0", "1", "10", "-1"], "answer": "0", "level": "medium" },
+    { "id": 38, "question": "Which is a rational number?", "options": ["√2", "π", "3/4", "√5"], "answer": "3/4", "level": "easy" },
+    { "id": 39, "question": "What is the sum of first 5 natural numbers?", "options": ["10", "15", "20", "25"], "answer": "15", "level": "easy" },
+    { "id": 40, "question": "What is the value of 2⁵?", "options": ["16", "32", "64", "8"], "answer": "32", "level": "easy" },
+
+    { "id": 41, "question": "Which is an obtuse angle?", "options": ["30°", "60°", "90°", "120°"], "answer": "120°", "level": "easy" },
+    { "id": 42, "question": "What is the simple interest formula?", "options": ["(P×R×T)/100", "P+RT", "PRT", "(P+R)T"], "answer": "(P×R×T)/100", "level": "medium" },
+    { "id": 43, "question": "What is the probability of getting a head when tossing a fair coin?", "options": ["0", "1/2", "1", "2"], "answer": "1/2", "level": "easy" },
+    { "id": 44, "question": "What is the value of 6!", "options": ["120", "360", "720", "24"], "answer": "720", "level": "medium" },
+    { "id": 45, "question": "What is the sum of angles of a quadrilateral?", "options": ["180°", "270°", "360°", "450°"], "answer": "360°", "level": "easy" },
+
+    { "id": 46, "question": "What is the value of tan 45°?", "options": ["0", "1", "√3", "∞"], "answer": "1", "level": "medium" },
+    { "id": 47, "question": "Which number is neither prime nor composite?", "options": ["0", "1", "2", "3"], "answer": "1", "level": "easy" },
+    { "id": 48, "question": "What is the solution of x + 5 = 12?", "options": ["5", "7", "12", "17"], "answer": "7", "level": "easy" },
+    { "id": 49, "question": "What is the value of 100 ÷ 25?", "options": ["2", "4", "5", "10"], "answer": "4", "level": "easy" },
+    { "id": 50, "question": "What is the next number in series: 2, 4, 6, ?", "options": ["7", "8", "9", "10"], "answer": "8", "level": "easy" }
+  ]
+}

@@ -295,7 +295,7 @@ button:hover{
   height: 90px;
   border-radius: 50%;
   padding: 5px;
-  /* background-color: #22c55e; */
+  /* background-color: #9b20ff; */
 }
 
 .photo img{
@@ -359,7 +359,7 @@ button:hover{
   display: flex;
   align-items: center;
   justify-content: center;
-  /* color: #22c55e; */
+  /* color: #9b20ff; */
   font-size: 22px;
   margin-left: 16px;
   overflow: hidden;
@@ -385,7 +385,7 @@ button:hover{
 .info-rank p{
   margin-top: 4px;
   display: inline-block;
-  background: #22c55e;
+  background: #9b20ff;
   color: #fff;
   padding: 4px 12px;
   border-radius: 12px;
@@ -455,7 +455,7 @@ button:hover{
 
 @media (min-width: 480px) and (max-width: 1024px) {
   .leaderboard-header{
-    background-color: #22c55e;
+    background-color: #9b20ff;
   }
 
   .div2{

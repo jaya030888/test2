@@ -1,0 +1,63 @@
+{
+  "python": [
+    { "id": 1, "question": "What is Python?", "options": ["Programming language", "Markup language", "Database", "Operating system"], "answer": "Programming language", "level": "easy" },
+    { "id": 2, "question": "Who developed Python?", "options": ["Guido van Rossum", "Dennis Ritchie", "James Gosling", "Bjarne Stroustrup"], "answer": "Guido van Rossum", "level": "easy" },
+    { "id": 3, "question": "Which symbol is used for comments?", "options": ["#", "//", "/* */", "<!-- -->"], "answer": "#", "level": "easy" },
+    { "id": 4, "question": "Which keyword is used to define a function?", "options": ["def", "function", "func", "define"], "answer": "def", "level": "easy" },
+    { "id": 5, "question": "Which keyword is used to create a class?", "options": ["class", "object", "struct", "define"], "answer": "class", "level": "easy" },
+
+    { "id": 6, "question": "Which data type is immutable?", "options": ["Tuple", "List", "Set", "Dictionary"], "answer": "Tuple", "level": "medium" },
+    { "id": 7, "question": "Which function prints output?", "options": ["print()", "echo()", "output()", "show()"], "answer": "print()", "level": "easy" },
+    { "id": 8, "question": "Which keyword is used for condition?", "options": ["if", "when", "check", "case"], "answer": "if", "level": "easy" },
+    { "id": 9, "question": "Which keyword is used for loop?", "options": ["for", "loop", "repeat", "iterate"], "answer": "for", "level": "easy" },
+    { "id": 10, "question": "Which loop runs until condition is false?", "options": ["while", "for", "do-while", "repeat"], "answer": "while", "level": "easy" },
+
+    { "id": 11, "question": "Which keyword exits loop?", "options": ["break", "stop", "exit", "end"], "answer": "break", "level": "easy" },
+    { "id": 12, "question": "Which keyword skips iteration?", "options": ["continue", "skip", "next", "pass"], "answer": "continue", "level": "easy" },
+    { "id": 13, "question": "Which keyword handles exceptions?", "options": ["try", "catch", "except", "error"], "answer": "except", "level": "medium" },
+    { "id": 14, "question": "Which keyword is used to raise error?", "options": ["raise", "throw", "error", "except"], "answer": "raise", "level": "medium" },
+    { "id": 15, "question": "Which keyword is used to import module?", "options": ["import", "include", "require", "using"], "answer": "import", "level": "easy" },
+
+    { "id": 16, "question": "Which file extension is used for Python?", "options": [".py", ".python", ".pt", ".p"], "answer": ".py", "level": "easy" },
+    { "id": 17, "question": "Which function returns length?", "options": ["len()", "length()", "size()", "count()"], "answer": "len()", "level": "easy" },
+    { "id": 18, "question": "Which operator is used for exponent?", "options": ["**", "^", "//", "%"], "answer": "**", "level": "easy" },
+    { "id": 19, "question": "Which operator is used for floor division?", "options": ["//", "/", "%", "**"], "answer": "//", "level": "easy" },
+    { "id": 20, "question": "Which keyword creates list comprehension?", "options": ["for", "while", "list", "lambda"], "answer": "for", "level": "medium" },
+
+    { "id": 21, "question": "Which data type stores key-value pairs?", "options": ["Dictionary", "List", "Tuple", "Set"], "answer": "Dictionary", "level": "easy" },
+    { "id": 22, "question": "Which method adds item to list?", "options": ["append()", "add()", "insert()", "push()"], "answer": "append()", "level": "easy" },
+    { "id": 23, "question": "Which method removes last list item?", "options": ["pop()", "remove()", "delete()", "clear()"], "answer": "pop()", "level": "easy" },
+    { "id": 24, "question": "Which keyword defines anonymous function?", "options": ["lambda", "def", "func", "anon"], "answer": "lambda", "level": "medium" },
+    { "id": 25, "question": "Which statement does nothing?", "options": ["pass", "skip", "none", "empty"], "answer": "pass", "level": "easy" },
+
+    { "id": 26, "question": "Which function converts string to integer?", "options": ["int()", "str()", "float()", "convert()"], "answer": "int()", "level": "easy" },
+    { "id": 27, "question": "Which function converts integer to string?", "options": ["str()", "int()", "char()", "text()"], "answer": "str()", "level": "easy" },
+    { "id": 28, "question": "Which keyword checks membership?", "options": ["in", "has", "contains", "exists"], "answer": "in", "level": "easy" },
+    { "id": 29, "question": "Which method sorts list?", "options": ["sort()", "order()", "arrange()", "set()"], "answer": "sort()", "level": "easy" },
+    { "id": 30, "question": "Which method reverses list?", "options": ["reverse()", "invert()", "back()", "flip()"], "answer": "reverse()", "level": "easy" },
+
+    { "id": 31, "question": "Which keyword creates generator?", "options": ["yield", "return", "gen", "next"], "answer": "yield", "level": "medium" },
+    { "id": 32, "question": "Which library is used for math?", "options": ["math", "calc", "numpy", "number"], "answer": "math", "level": "easy" },
+    { "id": 33, "question": "Which function returns absolute value?", "options": ["abs()", "fabs()", "absolute()", "mod()"], "answer": "abs()", "level": "easy" },
+    { "id": 34, "question": "Which keyword checks condition false?", "options": ["else", "elif", "if", "switch"], "answer": "else", "level": "easy" },
+    { "id": 35, "question": "Which keyword checks multiple conditions?", "options": ["elif", "else if", "case", "switch"], "answer": "elif", "level": "easy" },
+
+    { "id": 36, "question": "Which function opens file?", "options": ["open()", "read()", "file()", "load()"], "answer": "open()", "level": "easy" },
+    { "id": 37, "question": "Which mode reads file?", "options": ["r", "w", "a", "x"], "answer": "r", "level": "easy" },
+    { "id": 38, "question": "Which mode writes file?", "options": ["w", "r", "a", "x"], "answer": "w", "level": "easy" },
+    { "id": 39, "question": "Which mode appends file?", "options": ["a", "w", "r", "x"], "answer": "a", "level": "easy" },
+    { "id": 40, "question": "Which keyword closes file automatically?", "options": ["with", "close", "end", "stop"], "answer": "with", "level": "medium" },
+
+    { "id": 41, "question": "Which module is used for random numbers?", "options": ["random", "math", "numbers", "rand"], "answer": "random", "level": "easy" },
+    { "id": 42, "question": "Which function generates random integer?", "options": ["randint()", "random()", "rand()", "range()"], "answer": "randint()", "level": "easy" },
+    { "id": 43, "question": "Which keyword is used for inheritance?", "options": ["class", "extends", "inherits", "super"], "answer": "class", "level": "medium" },
+    { "id": 44, "question": "Which keyword calls parent constructor?", "options": ["super()", "parent()", "base()", "this()"], "answer": "super()", "level": "medium" },
+    { "id": 45, "question": "Which keyword refers current object?", "options": ["self", "this", "current", "object"], "answer": "self", "level": "easy" },
+
+    { "id": 46, "question": "Which data type does not allow duplicates?", "options": ["Set", "List", "Tuple", "Dictionary"], "answer": "Set", "level": "easy" },
+    { "id": 47, "question": "Which function returns type?", "options": ["type()", "typeof()", "kind()", "class()"], "answer": "type()", "level": "easy" },
+    { "id": 48, "question": "Which keyword deletes variable?", "options": ["del", "remove", "delete", "clear"], "answer": "del", "level": "easy" },
+    { "id": 49, "question": "Which value represents no value?", "options": ["None", "null", "0", "false"], "answer": "None", "level": "easy" },
+    { "id": 50, "question": "Python is ____ language.", "options": ["Interpreted", "Compiled", "Machine", "Assembly"], "answer": "Interpreted", "level": "easy" }
+  ]
+}

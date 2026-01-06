@@ -13,6 +13,10 @@
   referrerpolicy="no-referrer"
 />
 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+</style>
+
 </head>
 <body>
 
@@ -22,7 +26,12 @@
 
     <header>
         <h1>EduSpark</h1>
-        <button>Sign Up</button>
+
+        <section style="right:0; display: flex;;" >
+        <button style="margin:0 10px" onclick="login()" id="loginbtn">Login</button>
+        <button onclick="signup()" id="signupbtn">Sign Up</button>
+        </section>
+
     </header>
 
 
@@ -35,24 +44,24 @@
     <br>
     <br>
     <h3>Master Any Subject Through</h3>
-    <h3 style="color:#22C55E">Interactive Practice</h3>
+    <h3 style="color:#9b20ff">Interactive Practice</h3>
     <br>
     <br>
     <p>Interactive problem solving that's <span>effective</span> and <span>fun</span>.</p>
 <br><br>
-    <button>Start Quiz Now</button>
+    <button onclick="login()" id="start">Start Quiz Now</button>
     </section>
 
 
+    <section class="First-row">
 <!-- Give Quiz in English & Hindi -->
 
 
     <section class="Features">
 
-
         <section class="Featur_given">
         <h2>Give Quiz in English & Hindi</h2>
-        <br><br>
+
         <p>Language should never be a barrier to learning.
              Our App instantly generates high-quality quizzes in both 
              <span>English</span> and 
@@ -60,7 +69,7 @@
             </section>
 
             <section class="vdos">
-                 <img src=""  alt="Bilingual">
+                 <img src="./pictures/bilingual.png"  alt="Bilingual">
             </section>
     </section>
 
@@ -80,7 +89,7 @@
             </section>
 
         <section class="vdos">
-            <img src=""  alt="Analysis & Remarks">
+            <img src="./pictures/analysis&remarks.jpeg"  alt="Analysis & Remarks">
         </section>
 
     </section>
@@ -101,11 +110,13 @@
         </section>
 
         <section class="vdos">
-            <img src=""  alt="Analysis & Remarks">
+            <img src="./pictures/select.jpeg"  alt="Analysis & Remarks">
         </section>
 
     </section>
+</section>
 
+<section class="second-row">
 
 <!-- Rise to the Top -->
 
@@ -124,7 +135,7 @@
 
 
         <section class="vdos">
-            <img src=""  alt="Leaderboard">
+            <img src="./pictures/leaderboard.jpeg"  alt="Leaderboard">
         </section>
 
     </section>
@@ -145,8 +156,10 @@
 
 
         <section class="vdos">
-            <img src=""  alt="Progress">
+            <img src="./pictures/track.jpeg"  alt="Progress">
         </section>
+
+    </section>
 
     </section>
 
@@ -163,10 +176,10 @@
         <div class="Review">    <div>  <img src="./icons/email.svg" alt="icons">     </div>  <div class="journeyy">  <span style="font-size: 2rem; font-weight: 600;">4  </span>    <span style="color: rgb(121, 121, 121);">Perfect Score</span>         </div>   </div>
         <div class="Review">    <div>  <img src="./icons/email.svg" alt="icons">     </div>  <div class="journeyy">  <span style="font-size: 2rem; font-weight: 600;">42 </span>    <span style="color: rgb(121, 121, 121);">Minutes Learned</span>       </div>  </div>
 </section>
-        <div class="whats_going">      <section>      <div class="chapters"> <h3>Mathematics-Alzebra  </h3>     <span>Hard</span> </div>   <div class="spans"> <span><i class="fa-solid fa-calendar-days"></i>Nov 30,2025</span>     <span><i class="fa-solid fa-clock"></i>10 min</span>       <span><i class="fa-solid fa-thumbs-up"></i>Great!</span>       </div>    </section>   <section style="display: flex; flex-direction: column;">      <h3 style="color: #22C55E;">80%</h3>     <span>4/5 correct</span>     <button>Review  ></button></section>   </div>
-        <div class="whats_going">      <section>      <div class="chapters"> <h3>Python-Loops         </h3>     <span>Hard</span> </div>   <div class="spans"> <span><i class="fa-solid fa-calendar-days"></i>Nov 30,2025</span>     <span><i class="fa-solid fa-clock"></i>10 min</span>       <span><i class="fa-solid fa-thumbs-up"></i>Great!</span>       </div>    </section>   <section style="display: flex; flex-direction: column;">      <h3 style="color: #22C55E;">80%</h3>     <span>4/5 correct</span>     <button>Review  ></button></section>   </div>
-        <div class="whats_going">      <section>      <div class="chapters"> <h3>CSS-Flex             </h3>     <span>Hard</span> </div>   <div class="spans"> <span><i class="fa-solid fa-calendar-days"></i>Nov 30,2025</span>     <span><i class="fa-solid fa-clock"></i>10 min</span>       <span><i class="fa-solid fa-thumbs-up"></i>Great!</span>       </div>    </section>   <section style="display: flex; flex-direction: column;">      <h3 style="color: #22C55E;">80%</h3>     <span>4/5 correct</span>     <button>Review  ></button></section>   </div>
-        <div class="whats_going">      <section>      <div class="chapters"> <h3>HTML-Table           </h3>     <span>Hard</span> </div>   <div class="spans"> <span><i class="fa-solid fa-calendar-days"></i>Nov 30,2025</span>     <span><i class="fa-solid fa-clock"></i>10 min</span>       <span><i class="fa-solid fa-thumbs-up"></i>Great!</span>       </div>    </section>   <section style="display: flex; flex-direction: column;">      <h3 style="color: #22C55E;">80%</h3>     <span>4/5 correct</span>     <button>Review  ></button></section>   </div>
+        <div class="whats_going">      <section>      <div class="chapters"> <h3>Mathematics-Alzebra  </h3>     <span>Hard</span> </div>   <div class="spans"> <span><i class="fa-solid fa-calendar-days"></i>Nov 30,2025</span>     <span><i class="fa-solid fa-clock"></i>10 min</span>       <span><i class="fa-solid fa-thumbs-up"></i>Great!</span>       </div>    </section>   <section style="display: flex; flex-direction: column;">      <h3 style="color: #9b20ff;">80%</h3>     <span>4/5 correct</span>     <button>Review  ></button></section>   </div>
+        <div class="whats_going">      <section>      <div class="chapters"> <h3>Python-Loops         </h3>     <span>Hard</span> </div>   <div class="spans"> <span><i class="fa-solid fa-calendar-days"></i>Nov 30,2025</span>     <span><i class="fa-solid fa-clock"></i>10 min</span>       <span><i class="fa-solid fa-thumbs-up"></i>Great!</span>       </div>    </section>   <section style="display: flex; flex-direction: column;">      <h3 style="color: #9b20ff;">80%</h3>     <span>4/5 correct</span>     <button>Review  ></button></section>   </div>
+        <div class="whats_going">      <section>      <div class="chapters"> <h3>CSS-Flex             </h3>     <span>Hard</span> </div>   <div class="spans"> <span><i class="fa-solid fa-calendar-days"></i>Nov 30,2025</span>     <span><i class="fa-solid fa-clock"></i>10 min</span>       <span><i class="fa-solid fa-thumbs-up"></i>Great!</span>       </div>    </section>   <section style="display: flex; flex-direction: column;">      <h3 style="color: #9b20ff;">80%</h3>     <span>4/5 correct</span>     <button>Review  ></button></section>   </div>
+        <div class="whats_going">      <section>      <div class="chapters"> <h3>HTML-Table           </h3>     <span>Hard</span> </div>   <div class="spans"> <span><i class="fa-solid fa-calendar-days"></i>Nov 30,2025</span>     <span><i class="fa-solid fa-clock"></i>10 min</span>       <span><i class="fa-solid fa-thumbs-up"></i>Great!</span>       </div>    </section>   <section style="display: flex; flex-direction: column;">      <h3 style="color: #9b20ff;">80%</h3>     <span>4/5 correct</span>     <button>Review  ></button></section>   </div>
     </section>
 
 
@@ -210,7 +223,7 @@
         <button class="Unlimited-btn">&infin;  Unlimited Time</button>
 
         <div class="start">
-            <button>Give a Demo</button>
+            <button id="startdemo" onclick="startdemo">Give a Demo</button>
         </div>      
 
     
@@ -234,7 +247,7 @@
 
     <section id="Guided_paths">
         <h2>Guided Paths for Every Journey</h2>
-        <p>Master foundational concepts through structured, intractive quizzes</p>
+        <p>Master foundational concepts through structured, intractive quizzes in</p>
         <nav id="Subject_nav">
             <button>HTML</button>
             <button>CSS</button>
@@ -243,10 +256,10 @@
             <button>Mathematics</button>
             <button>English</button> 
         </nav>
-        <section id="courses-and-preview">
+        <!-- <section id="courses-and-preview">
             <div>hello</div>
             <div>hello</div>
-        </section>
+        </section> -->
     </section>
 
 
@@ -281,6 +294,10 @@
     <footer>
 
     </footer>
+
+
+
+    <script src="index.js"></script>
 </body>
 </html>
 

@@ -1,0 +1,63 @@
+{
+  "english": [
+    { "id": 1, "question": "Choose the correct spelling:", "options": ["Definately", "Definitely", "Definetely", "Definatly"], "answer": "Definitely", "level": "easy" },
+    { "id": 2, "question": "What is the synonym of 'Happy'?", "options": ["Sad", "Angry", "Joyful", "Tired"], "answer": "Joyful", "level": "easy" },
+    { "id": 3, "question": "What is the antonym of 'Hot'?", "options": ["Warm", "Cold", "Cool", "Heat"], "answer": "Cold", "level": "easy" },
+    { "id": 4, "question": "Choose the correct article: ___ apple", "options": ["A", "An", "The", "No article"], "answer": "An", "level": "easy" },
+    { "id": 5, "question": "Which is a noun?", "options": ["Run", "Beautiful", "Happiness", "Quickly"], "answer": "Happiness", "level": "easy" },
+
+    { "id": 6, "question": "Which is a verb?", "options": ["Table", "Run", "Blue", "Soft"], "answer": "Run", "level": "easy" },
+    { "id": 7, "question": "Which is an adjective?", "options": ["Quick", "Quickly", "Run", "Happily"], "answer": "Quick", "level": "easy" },
+    { "id": 8, "question": "Which is an adverb?", "options": ["Slow", "Slowly", "Slowness", "Slowest"], "answer": "Slowly", "level": "easy" },
+    { "id": 9, "question": "Plural of 'Child' is?", "options": ["Childs", "Children", "Childes", "Childrens"], "answer": "Children", "level": "easy" },
+    { "id": 10, "question": "Past tense of 'Go' is?", "options": ["Goed", "Gone", "Went", "Going"], "answer": "Went", "level": "easy" },
+
+    { "id": 11, "question": "Choose the correct preposition: He is fond ___ music.", "options": ["of", "for", "to", "with"], "answer": "of", "level": "easy" },
+    { "id": 12, "question": "Choose the correct sentence:", "options": ["He go to school", "He goes to school", "He going school", "He gone school"], "answer": "He goes to school", "level": "easy" },
+    { "id": 13, "question": "What is the plural of 'Mouse'?", "options": ["Mouses", "Mice", "Mouse", "Mices"], "answer": "Mice", "level": "easy" },
+    { "id": 14, "question": "Choose the correct conjunction:", "options": ["And", "Run", "Blue", "Very"], "answer": "And", "level": "easy" },
+    { "id": 15, "question": "Which is a pronoun?", "options": ["She", "Table", "Run", "Red"], "answer": "She", "level": "easy" },
+
+    { "id": 16, "question": "Opposite of 'Early' is?", "options": ["Fast", "Late", "Soon", "Quick"], "answer": "Late", "level": "easy" },
+    { "id": 17, "question": "Choose correct tense: I ___ playing.", "options": ["am", "is", "are", "was"], "answer": "am", "level": "easy" },
+    { "id": 18, "question": "Which sentence is interrogative?", "options": ["She is happy.", "Are you ready?", "Close the door.", "What a day!"], "answer": "Are you ready?", "level": "easy" },
+    { "id": 19, "question": "Which punctuation ends a question?", "options": [".", "!", "?", ","], "answer": "?", "level": "easy" },
+    { "id": 20, "question": "Choose correct form: He ___ tea.", "options": ["drink", "drinks", "drinking", "drank"], "answer": "drinks", "level": "easy" },
+
+    { "id": 21, "question": "What is a sentence?", "options": ["Group of words with meaning", "Single word", "Random letters", "Only noun"], "answer": "Group of words with meaning", "level": "easy" },
+    { "id": 22, "question": "Which is a punctuation mark?", "options": ["Comma", "Run", "Fast", "Happy"], "answer": "Comma", "level": "easy" },
+    { "id": 23, "question": "Choose correct spelling:", "options": ["Enviroment", "Environment", "Envirnment", "Envirement"], "answer": "Environment", "level": "easy" },
+    { "id": 24, "question": "Which word shows action?", "options": ["Jump", "Blue", "Tall", "Happy"], "answer": "Jump", "level": "easy" },
+    { "id": 25, "question": "What is the synonym of 'Big'?", "options": ["Small", "Large", "Tiny", "Little"], "answer": "Large", "level": "easy" },
+
+    { "id": 26, "question": "Choose correct article: ___ honest man", "options": ["A", "An", "The", "No article"], "answer": "An", "level": "medium" },
+    { "id": 27, "question": "Past participle of 'Write'?", "options": ["Writed", "Wrote", "Written", "Writing"], "answer": "Written", "level": "medium" },
+    { "id": 28, "question": "Which is a collective noun?", "options": ["Team", "Boy", "Run", "Blue"], "answer": "Team", "level": "easy" },
+    { "id": 29, "question": "Choose correct sentence:", "options": ["She don’t know", "She doesn’t know", "She didn’t knows", "She don’t knows"], "answer": "She doesn’t know", "level": "medium" },
+    { "id": 30, "question": "Which word is feminine gender of 'King'?", "options": ["Queen", "Princess", "Lady", "Empress"], "answer": "Queen", "level": "easy" },
+
+    { "id": 31, "question": "What is an idiom?", "options": ["Phrase with special meaning", "Single word", "Grammar rule", "Verb form"], "answer": "Phrase with special meaning", "level": "medium" },
+    { "id": 32, "question": "Choose correct preposition: He is good ___ maths.", "options": ["at", "in", "on", "with"], "answer": "at", "level": "easy" },
+    { "id": 33, "question": "Which sentence is imperative?", "options": ["Open the door.", "Are you ready?", "I am happy.", "What a day!"], "answer": "Open the door.", "level": "easy" },
+    { "id": 34, "question": "What is the plural of 'Foot'?", "options": ["Foots", "Feets", "Feet", "Foot"], "answer": "Feet", "level": "easy" },
+    { "id": 35, "question": "Which is a helping verb?", "options": ["Is", "Run", "Happy", "Table"], "answer": "Is", "level": "easy" },
+
+    { "id": 36, "question": "Choose correct word: She ___ singing.", "options": ["is", "are", "am", "were"], "answer": "is", "level": "easy" },
+    { "id": 37, "question": "Which word means 'afraid'?", "options": ["Scared", "Happy", "Calm", "Bold"], "answer": "Scared", "level": "easy" },
+    { "id": 38, "question": "Which is an exclamatory sentence?", "options": ["What a beautiful day!", "She is kind.", "Open the door.", "Are you coming?"], "answer": "What a beautiful day!", "level": "easy" },
+    { "id": 39, "question": "What is the opposite of 'Increase'?", "options": ["Grow", "Rise", "Decrease", "Expand"], "answer": "Decrease", "level": "easy" },
+    { "id": 40, "question": "Choose correct spelling:", "options": ["Recieve", "Receive", "Receeve", "Receve"], "answer": "Receive", "level": "easy" },
+
+    { "id": 41, "question": "Which is a countable noun?", "options": ["Book", "Milk", "Water", "Rice"], "answer": "Book", "level": "easy" },
+    { "id": 42, "question": "Which is an uncountable noun?", "options": ["Chair", "Pen", "Milk", "Apple"], "answer": "Milk", "level": "easy" },
+    { "id": 43, "question": "Choose correct sentence:", "options": ["I has a pen", "I have a pen", "I having pen", "I haves pen"], "answer": "I have a pen", "level": "easy" },
+    { "id": 44, "question": "What is a paragraph?", "options": ["Group of related sentences", "Single word", "Only verb", "Only noun"], "answer": "Group of related sentences", "level": "easy" },
+    { "id": 45, "question": "Which word is masculine gender of 'Actress'?", "options": ["Actor", "Hero", "Man", "Boy"], "answer": "Actor", "level": "easy" },
+
+    { "id": 46, "question": "Choose correct punctuation: Hello___ how are you?", "options": [",", ".", "!", ";"], "answer": ",", "level": "easy" },
+    { "id": 47, "question": "Which word is a preposition?", "options": ["Under", "Run", "Happy", "Quick"], "answer": "Under", "level": "easy" },
+    { "id": 48, "question": "What is the opposite of 'Victory'?", "options": ["Win", "Success", "Defeat", "Achievement"], "answer": "Defeat", "level": "easy" },
+    { "id": 49, "question": "Which sentence shows future tense?", "options": ["I will go home.", "I go home.", "I went home.", "I am home."], "answer": "I will go home.", "level": "easy" },
+    { "id": 50, "question": "English has how many vowels?", "options": ["4", "5", "6", "7"], "answer": "5", "level": "easy" }
+  ]
+}

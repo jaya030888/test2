@@ -1,0 +1,63 @@
+{
+  "javascript": [
+    { "id": 1, "question": "What is JavaScript?", "options": ["Programming language", "Markup language", "Styling language", "Database"], "answer": "Programming language", "level": "easy" },
+    { "id": 2, "question": "Which keyword is used to declare a variable?", "options": ["var", "int", "string", "float"], "answer": "var", "level": "easy" },
+    { "id": 3, "question": "Which keyword is block scoped?", "options": ["let", "var", "const", "Both let and const"], "answer": "Both let and const", "level": "easy" },
+    { "id": 4, "question": "Which keyword declares constant?", "options": ["const", "let", "var", "fixed"], "answer": "const", "level": "easy" },
+    { "id": 5, "question": "Which symbol is used for comments?", "options": ["//", "<!-- -->", "#", "**"], "answer": "//", "level": "easy" },
+
+    { "id": 6, "question": "Which data type is NOT primitive?", "options": ["Object", "Number", "String", "Boolean"], "answer": "Object", "level": "medium" },
+    { "id": 7, "question": "Which function prints output to console?", "options": ["console.log()", "print()", "log()", "output()"], "answer": "console.log()", "level": "easy" },
+    { "id": 8, "question": "Which operator is used for equality check?", "options": ["===", "=", "!=", "+"], "answer": "===", "level": "easy" },
+    { "id": 9, "question": "Which operator assigns value?", "options": ["=", "==", "===", "!="], "answer": "=", "level": "easy" },
+    { "id": 10, "question": "Which keyword is used for condition?", "options": ["if", "when", "check", "case"], "answer": "if", "level": "easy" },
+
+    { "id": 11, "question": "Which loop executes at least once?", "options": ["do...while", "for", "while", "foreach"], "answer": "do...while", "level": "medium" },
+    { "id": 12, "question": "Which loop is best for known iterations?", "options": ["for", "while", "do...while", "loop"], "answer": "for", "level": "easy" },
+    { "id": 13, "question": "Which statement stops loop?", "options": ["break", "stop", "exit", "end"], "answer": "break", "level": "easy" },
+    { "id": 14, "question": "Which statement skips iteration?", "options": ["continue", "skip", "next", "pass"], "answer": "continue", "level": "easy" },
+    { "id": 15, "question": "Which keyword defines function?", "options": ["function", "func", "define", "method"], "answer": "function", "level": "easy" },
+
+    { "id": 16, "question": "Arrow functions introduced in?", "options": ["ES6", "ES5", "ES3", "ES7"], "answer": "ES6", "level": "medium" },
+    { "id": 17, "question": "Which symbol is used for arrow function?", "options": ["=>", "->", "<=", "==>"], "answer": "=>", "level": "easy" },
+    { "id": 18, "question": "Which object represents browser window?", "options": ["window", "document", "screen", "navigator"], "answer": "window", "level": "easy" },
+    { "id": 19, "question": "Which object represents HTML document?", "options": ["document", "window", "dom", "html"], "answer": "document", "level": "easy" },
+    { "id": 20, "question": "Which method selects element by id?", "options": ["getElementById()", "querySelector()", "getId()", "selectId()"], "answer": "getElementById()", "level": "easy" },
+
+    { "id": 21, "question": "Which method selects first matching element?", "options": ["querySelector()", "getElementsByClassName()", "queryAll()", "select()"], "answer": "querySelector()", "level": "easy" },
+    { "id": 22, "question": "Which method selects multiple elements?", "options": ["querySelectorAll()", "querySelector()", "getElement()", "selectAll()"], "answer": "querySelectorAll()", "level": "easy" },
+    { "id": 23, "question": "Which event occurs on button click?", "options": ["click", "hover", "load", "submit"], "answer": "click", "level": "easy" },
+    { "id": 24, "question": "Which event fires when page loads?", "options": ["load", "open", "start", "ready"], "answer": "load", "level": "easy" },
+    { "id": 25, "question": "Which keyword handles errors?", "options": ["try", "catch", "throw", "All of these"], "answer": "All of these", "level": "medium" },
+
+    { "id": 26, "question": "Which method converts JSON to object?", "options": ["JSON.parse()", "JSON.stringify()", "parseJSON()", "toObject()"], "answer": "JSON.parse()", "level": "easy" },
+    { "id": 27, "question": "Which method converts object to JSON?", "options": ["JSON.stringify()", "JSON.parse()", "objectToJSON()", "convert()"], "answer": "JSON.stringify()", "level": "easy" },
+    { "id": 28, "question": "Which keyword creates object?", "options": ["new", "create", "object", "make"], "answer": "new", "level": "easy" },
+    { "id": 29, "question": "Which array method adds element at end?", "options": ["push()", "pop()", "shift()", "unshift()"], "answer": "push()", "level": "easy" },
+    { "id": 30, "question": "Which array method removes last element?", "options": ["pop()", "push()", "shift()", "remove()"], "answer": "pop()", "level": "easy" },
+
+    { "id": 31, "question": "Which array method removes first element?", "options": ["shift()", "unshift()", "pop()", "splice()"], "answer": "shift()", "level": "easy" },
+    { "id": 32, "question": "Which array method adds at beginning?", "options": ["unshift()", "shift()", "push()", "add()"], "answer": "unshift()", "level": "easy" },
+    { "id": 33, "question": "Which operator checks type?", "options": ["typeof", "type", "instance", "check"], "answer": "typeof", "level": "easy" },
+    { "id": 34, "question": "Which value represents empty?", "options": ["null", "undefined", "0", "false"], "answer": "null", "level": "medium" },
+    { "id": 35, "question": "Which value means not assigned?", "options": ["undefined", "null", "NaN", "false"], "answer": "undefined", "level": "medium" },
+
+    { "id": 36, "question": "Which keyword creates class?", "options": ["class", "object", "struct", "define"], "answer": "class", "level": "easy" },
+    { "id": 37, "question": "Which keyword is used for inheritance?", "options": ["extends", "inherits", "super", "parent"], "answer": "extends", "level": "medium" },
+    { "id": 38, "question": "Which keyword calls parent constructor?", "options": ["super", "this", "parent", "base"], "answer": "super", "level": "medium" },
+    { "id": 39, "question": "Which keyword refers current object?", "options": ["this", "self", "current", "object"], "answer": "this", "level": "easy" },
+    { "id": 40, "question": "Which storage persists after refresh?", "options": ["localStorage", "sessionStorage", "cookie", "cache"], "answer": "localStorage", "level": "medium" },
+
+    { "id": 41, "question": "Which storage clears after tab close?", "options": ["sessionStorage", "localStorage", "cookie", "indexDB"], "answer": "sessionStorage", "level": "medium" },
+    { "id": 42, "question": "Which function runs after delay?", "options": ["setTimeout()", "setInterval()", "delay()", "wait()"], "answer": "setTimeout()", "level": "easy" },
+    { "id": 43, "question": "Which function runs repeatedly?", "options": ["setInterval()", "setTimeout()", "loop()", "repeat()"], "answer": "setInterval()", "level": "easy" },
+    { "id": 44, "question": "Which keyword stops interval?", "options": ["clearInterval()", "stopInterval()", "remove()", "clear()"], "answer": "clearInterval()", "level": "easy" },
+    { "id": 45, "question": "Which feature handles async code?", "options": ["Promise", "Callback", "async/await", "All of these"], "answer": "All of these", "level": "medium" },
+
+    { "id": 46, "question": "Which keyword makes function async?", "options": ["async", "await", "promise", "thread"], "answer": "async", "level": "easy" },
+    { "id": 47, "question": "Which keyword waits for promise?", "options": ["await", "async", "then", "wait"], "answer": "await", "level": "easy" },
+    { "id": 48, "question": "Which method fetches API?", "options": ["fetch()", "get()", "request()", "api()"], "answer": "fetch()", "level": "easy" },
+    { "id": 49, "question": "Which method handles fetch response?", "options": ["then()", "catch()", "finally()", "All"], "answer": "All", "level": "medium" },
+    { "id": 50, "question": "JavaScript runs on?", "options": ["Browser", "Server", "Both browser and server", "Only server"], "answer": "Both browser and server", "level": "easy" }
+  ]
+}

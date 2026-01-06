@@ -1,0 +1,61 @@
+{
+  "html": [
+    { "id": 1, "question": "What does HTML stand for?", "options": ["Hyper Text Markup Language", "High Text Machine Language", "Hyperlinks and Text Markup Language", "Home Tool Markup Language"], "answer": "Hyper Text Markup Language", "level": "easy" },
+    { "id": 2, "question": "Which tag is used for the largest heading?", "options": ["<h6>", "<h4>", "<h1>", "<head>"], "answer": "<h1>", "level": "easy" },
+    { "id": 3, "question": "Which tag is used to create a paragraph?", "options": ["<p>", "<para>", "<text>", "<pg>"], "answer": "<p>", "level": "easy" },
+    { "id": 4, "question": "Which tag inserts a line break?", "options": ["<br>", "<lb>", "<break>", "<line>"], "answer": "<br>", "level": "easy" },
+    { "id": 5, "question": "Which tag is used to insert an image?", "options": ["<img>", "<image>", "<pic>", "<src>"], "answer": "<img>", "level": "easy" },
+    { "id": 6, "question": "Which attribute is used to provide image path?", "options": ["src", "href", "link", "path"], "answer": "src", "level": "easy" },
+    { "id": 7, "question": "Which tag is used to create a hyperlink?", "options": ["<a>", "<link>", "<href>", "<url>"], "answer": "<a>", "level": "easy" },
+    { "id": 8, "question": "Which attribute opens a link in a new tab?", "options": ["target='_blank'", "new='tab'", "open='new'", "blank"], "answer": "target='_blank'", "level": "medium" },
+    { "id": 9, "question": "Which tag creates an unordered list?", "options": ["<ul>", "<ol>", "<li>", "<list>"], "answer": "<ul>", "level": "easy" },
+    { "id": 10, "question": "Which tag creates an ordered list?", "options": ["<ul>", "<list>", "<ol>", "<order>"], "answer": "<ol>", "level": "easy" },
+
+    { "id": 11, "question": "Which tag defines a table row?", "options": ["<tr>", "<td>", "<th>", "<row>"], "answer": "<tr>", "level": "easy" },
+    { "id": 12, "question": "Which tag defines table data?", "options": ["<td>", "<tr>", "<th>", "<data>"], "answer": "<td>", "level": "easy" },
+    { "id": 13, "question": "Which tag defines table heading?", "options": ["<th>", "<td>", "<tr>", "<head>"], "answer": "<th>", "level": "easy" },
+    { "id": 14, "question": "Which tag is used to create a form?", "options": ["<form>", "<input>", "<fieldset>", "<label>"], "answer": "<form>", "level": "easy" },
+    { "id": 15, "question": "Which input type is used for passwords?", "options": ["password", "text", "secure", "hidden"], "answer": "password", "level": "easy" },
+    { "id": 16, "question": "Which tag is used for checkbox?", "options": ["checkbox", "input type='checkbox'", "check", "box"], "answer": "input type='checkbox'", "level": "medium" },
+    { "id": 17, "question": "Which attribute makes an input mandatory?", "options": ["required", "validate", "must", "important"], "answer": "required", "level": "easy" },
+    { "id": 18, "question": "Which tag is used to embed video?", "options": ["<video>", "<media>", "<movie>", "<mp4>"], "answer": "<video>", "level": "easy" },
+    { "id": 19, "question": "Which tag is semantic?", "options": ["<div>", "<span>", "<section>", "<font>"], "answer": "<section>", "level": "medium" },
+    { "id": 20, "question": "Which HTML tag is used for navigation links?", "options": ["<nav>", "<menu>", "<links>", "<navigate>"], "answer": "<nav>", "level": "medium" },
+
+    { "id": 21, "question": "Which tag is used to define footer?", "options": ["<footer>", "<bottom>", "<end>", "<foot>"], "answer": "<footer>", "level": "easy" },
+    { "id": 22, "question": "Which tag defines main content?", "options": ["<main>", "<body>", "<section>", "<content>"], "answer": "<main>", "level": "medium" },
+    { "id": 23, "question": "Which tag is used to include CSS?", "options": ["<link>", "<style>", "<css>", "<script>"], "answer": "<link>", "level": "easy" },
+    { "id": 24, "question": "Which tag is used to write internal CSS?", "options": ["<style>", "<css>", "<script>", "<link>"], "answer": "<style>", "level": "easy" },
+    { "id": 25, "question": "Which tag is used to include JavaScript?", "options": ["<script>", "<js>", "<javascript>", "<code>"], "answer": "<script>", "level": "easy" },
+
+    { "id": 26, "question": "HTML is a ____ language.", "options": ["Programming", "Markup", "Styling", "Database"], "answer": "Markup", "level": "easy" },
+    { "id": 27, "question": "Which attribute provides alternate text for image?", "options": ["alt", "title", "name", "src"], "answer": "alt", "level": "easy" },
+    { "id": 28, "question": "Which tag is used for bold text?", "options": ["<b>", "<strong>", "Both <b> and <strong>", "<bold>"], "answer": "Both <b> and <strong>", "level": "medium" },
+    { "id": 29, "question": "Which tag is used for italic text?", "options": ["<i>", "<em>", "Both <i> and <em>", "<italic>"], "answer": "Both <i> and <em>", "level": "medium" },
+    { "id": 30, "question": "Which tag is deprecated?", "options": ["<font>", "<section>", "<article>", "<header>"], "answer": "<font>", "level": "medium" },
+
+    { "id": 31, "question": "Which HTML version introduced semantic tags?", "options": ["HTML4", "HTML5", "HTML3", "XHTML"], "answer": "HTML5", "level": "easy" },
+    { "id": 32, "question": "Which tag is used for audio?", "options": ["<audio>", "<sound>", "<mp3>", "<media>"], "answer": "<audio>", "level": "easy" },
+    { "id": 33, "question": "Which attribute specifies character encoding?", "options": ["charset", "encoding", "meta", "lang"], "answer": "charset", "level": "medium" },
+    { "id": 34, "question": "Which tag contains metadata?", "options": ["<head>", "<meta>", "<body>", "<title>"], "answer": "<head>", "level": "easy" },
+    { "id": 35, "question": "Which tag sets the page title?", "options": ["<title>", "<head>", "<meta>", "<name>"], "answer": "<title>", "level": "easy" },
+
+    { "id": 36, "question": "Which input type is used for email?", "options": ["email", "mail", "text", "contact"], "answer": "email", "level": "easy" },
+    { "id": 37, "question": "Which tag groups form elements?", "options": ["<fieldset>", "<group>", "<formgroup>", "<section>"], "answer": "<fieldset>", "level": "medium" },
+    { "id": 38, "question": "Which attribute disables an input?", "options": ["disabled", "readonly", "stop", "block"], "answer": "disabled", "level": "easy" },
+    { "id": 39, "question": "Which tag is used for comments?", "options": ["<!-- -->", "//", "/* */", "#"], "answer": "<!-- -->", "level": "easy" },
+    { "id": 40, "question": "Which tag is inline?", "options": ["<span>", "<div>", "<section>", "<article>"], "answer": "<span>", "level": "medium" },
+
+    { "id": 41, "question": "Which tag is block-level?", "options": ["<div>", "<span>", "<a>", "<img>"], "answer": "<div>", "level": "easy" },
+    { "id": 42, "question": "Which attribute specifies language?", "options": ["lang", "type", "charset", "region"], "answer": "lang", "level": "easy" },
+    { "id": 43, "question": "Which tag is used for emphasized text?", "options": ["<em>", "<i>", "<strong>", "<mark>"], "answer": "<em>", "level": "easy" },
+    { "id": 44, "question": "Which tag highlights text?", "options": ["<mark>", "<highlight>", "<em>", "<strong>"], "answer": "<mark>", "level": "easy" },
+    { "id": 45, "question": "Which tag represents article content?", "options": ["<article>", "<section>", "<div>", "<main>"], "answer": "<article>", "level": "medium" },
+
+    { "id": 46, "question": "Which tag is used for progress bar?", "options": ["<progress>", "<meter>", "<bar>", "<status>"], "answer": "<progress>", "level": "medium" },
+    { "id": 47, "question": "Which tag is used for dropdown?", "options": ["<select>", "<option>", "<list>", "<dropdown>"], "answer": "<select>", "level": "easy" },
+    { "id": 48, "question": "Which tag defines option in dropdown?", "options": ["<option>", "<select>", "<choice>", "<item>"], "answer": "<option>", "level": "easy" },
+    { "id": 49, "question": "Which tag is used for iframe?", "options": ["<iframe>", "<frame>", "<embed>", "<window>"], "answer": "<iframe>", "level": "easy" },
+    { "id": 50, "question": "HTML files have extension?", "options": [".html", ".htm", "Both .html and .htm", ".web"], "answer": "Both .html and .htm", "level": "easy" }
+  ]
+}
