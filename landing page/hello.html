@@ -88,28 +88,30 @@
 
 <script>
   // QUESTIONS (JSON-style inside JS)
-  const questions = [
-    {
-      question: "What does HTML stand for?",
-      options: [
-        "Hyper Text Markup Language",
-        "High Text Machine Language",
-        "Hyperlinks Text Markup Language",
-        "Home Tool Markup Language"
-      ],
-      answer: 0
-    },
-    {
-      question: "Which tag is used for JavaScript?",
-      options: ["<js>", "<javascript>", "<script>", "<code>"],
-      answer: 2
-    },
-    {
-      question: "Which language is used for styling web pages?",
-      options: ["HTML", "JQuery", "CSS", "XML"],
-      answer: 2
-    }
-  ];
+  // const questions = [
+  //   {
+  //     question: "What does HTML stand for?",
+  //     options: [
+  //       "Hyper Text Markup Language",
+  //       "High Text Machine Language",
+  //       "Hyperlinks Text Markup Language",
+  //       "Home Tool Markup Language"
+  //     ],
+  //     answer: 0
+  //   },
+  //   {
+  //     question: "Which tag is used for JavaScript?",
+  //     options: ["<js>", "<javascript>", "<script>", "<code>"],
+  //     answer: 2
+  //   },
+  //   {
+  //     question: "Which language is used for styling web pages?",
+  //     options: ["HTML", "JQuery", "CSS", "XML"],
+  //     answer: 2
+  //   }
+  // ];
+
+  const questions = await fetch
 
   let currentQuestion = 0;
   let score = 0;
@@ -176,5 +178,4 @@
 
 </body>
 </html>
-
 
