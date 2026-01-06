@@ -1,0 +1,63 @@
+{
+  "python": [
+    { "id": 1, "question": "Python क्या है?", "options": ["प्रोग्रामिंग भाषा", "मार्कअप भाषा", "डेटाबेस", "ऑपरेटिंग सिस्टम"], "answer": "प्रोग्रामिंग भाषा", "level": "easy" },
+    { "id": 2, "question": "Python किसने बनाया?", "options": ["Guido van Rossum", "Dennis Ritchie", "James Gosling", "Bjarne Stroustrup"], "answer": "Guido van Rossum", "level": "easy" },
+    { "id": 3, "question": "कमेंट के लिए कौन सा चिन्ह है?", "options": ["#", "//", "/* */", "<!-- -->"], "answer": "#", "level": "easy" },
+    { "id": 4, "question": "फंक्शन बनाने का कीवर्ड?", "options": ["def", "function", "func", "define"], "answer": "def", "level": "easy" },
+    { "id": 5, "question": "क्लास बनाने का कीवर्ड?", "options": ["class", "object", "struct", "define"], "answer": "class", "level": "easy" },
+
+    { "id": 6, "question": "कौन सा डेटा टाइप immutable है?", "options": ["Tuple", "List", "Set", "Dictionary"], "answer": "Tuple", "level": "medium" },
+    { "id": 7, "question": "आउटपुट दिखाने का फंक्शन?", "options": ["print()", "echo()", "show()", "output()"], "answer": "print()", "level": "easy" },
+    { "id": 8, "question": "कंडीशन चेक करने का कीवर्ड?", "options": ["if", "when", "check", "case"], "answer": "if", "level": "easy" },
+    { "id": 9, "question": "लूप के लिए कौन सा कीवर्ड है?", "options": ["for", "loop", "repeat", "iterate"], "answer": "for", "level": "easy" },
+    { "id": 10, "question": "कौन सा लूप तब तक चलता है जब तक कंडीशन गलत न हो?", "options": ["while", "for", "do-while", "repeat"], "answer": "while", "level": "easy" },
+
+    { "id": 11, "question": "लूप से बाहर निकलने का कीवर्ड?", "options": ["break", "stop", "exit", "end"], "answer": "break", "level": "easy" },
+    { "id": 12, "question": "इटरेशन स्किप करने का कीवर्ड?", "options": ["continue", "skip", "next", "pass"], "answer": "continue", "level": "easy" },
+    { "id": 13, "question": "एरर हैंडल करने का कीवर्ड?", "options": ["except", "catch", "try", "error"], "answer": "except", "level": "medium" },
+    { "id": 14, "question": "एरर उठाने का कीवर्ड?", "options": ["raise", "throw", "error", "except"], "answer": "raise", "level": "medium" },
+    { "id": 15, "question": "मॉड्यूल इम्पोर्ट करने का कीवर्ड?", "options": ["import", "include", "require", "using"], "answer": "import", "level": "easy" },
+
+    { "id": 16, "question": "Python फाइल का एक्सटेंशन?", "options": [".py", ".python", ".pt", ".p"], "answer": ".py", "level": "easy" },
+    { "id": 17, "question": "लंबाई पता करने का फंक्शन?", "options": ["len()", "length()", "size()", "count()"], "answer": "len()", "level": "easy" },
+    { "id": 18, "question": "पावर ऑपरेटर कौन सा है?", "options": ["**", "^", "//", "%"], "answer": "**", "level": "easy" },
+    { "id": 19, "question": "फ्लोर डिवीजन ऑपरेटर?", "options": ["//", "/", "%", "**"], "answer": "//", "level": "easy" },
+    { "id": 20, "question": "लिस्ट कॉम्प्रिहेंशन में कौन सा कीवर्ड उपयोग होता है?", "options": ["for", "while", "list", "lambda"], "answer": "for", "level": "medium" },
+
+    { "id": 21, "question": "की-वैल्यू डेटा टाइप कौन सा है?", "options": ["Dictionary", "List", "Tuple", "Set"], "answer": "Dictionary", "level": "easy" },
+    { "id": 22, "question": "लिस्ट में आइटम जोड़ने का मेथड?", "options": ["append()", "add()", "insert()", "push()"], "answer": "append()", "level": "easy" },
+    { "id": 23, "question": "लिस्ट का आख़िरी आइटम हटाने का मेथड?", "options": ["pop()", "remove()", "delete()", "clear()"], "answer": "pop()", "level": "easy" },
+    { "id": 24, "question": "अनाम फंक्शन का कीवर्ड?", "options": ["lambda", "def", "func", "anon"], "answer": "lambda", "level": "medium" },
+    { "id": 25, "question": "जो कुछ न करे वह स्टेटमेंट?", "options": ["pass", "skip", "none", "empty"], "answer": "pass", "level": "easy" },
+
+    { "id": 26, "question": "स्ट्रिंग को इन्टिजर में बदलने का फंक्शन?", "options": ["int()", "str()", "float()", "convert()"], "answer": "int()", "level": "easy" },
+    { "id": 27, "question": "इन्टिजर को स्ट्रिंग में बदलने का फंक्शन?", "options": ["str()", "int()", "char()", "text()"], "answer": "str()", "level": "easy" },
+    { "id": 28, "question": "मेम्बरशिप चेक करने का कीवर्ड?", "options": ["in", "has", "contains", "exists"], "answer": "in", "level": "easy" },
+    { "id": 29, "question": "लिस्ट सॉर्ट करने का मेथड?", "options": ["sort()", "order()", "arrange()", "set()"], "answer": "sort()", "level": "easy" },
+    { "id": 30, "question": "लिस्ट रिवर्स करने का मेथड?", "options": ["reverse()", "invert()", "back()", "flip()"], "answer": "reverse()", "level": "easy" },
+
+    { "id": 31, "question": "जेनरेटर बनाने का कीवर्ड?", "options": ["yield", "return", "gen", "next"], "answer": "yield", "level": "medium" },
+    { "id": 32, "question": "गणित के लिए कौन सा मॉड्यूल है?", "options": ["math", "calc", "numpy", "number"], "answer": "math", "level": "easy" },
+    { "id": 33, "question": "एब्सोल्यूट वैल्यू का फंक्शन?", "options": ["abs()", "fabs()", "absolute()", "mod()"], "answer": "abs()", "level": "easy" },
+    { "id": 34, "question": "कंडीशन गलत होने पर कौन सा कीवर्ड?", "options": ["else", "elif", "if", "switch"], "answer": "else", "level": "easy" },
+    { "id": 35, "question": "एक से अधिक कंडीशन के लिए कौन सा कीवर्ड?", "options": ["elif", "else if", "case", "switch"], "answer": "elif", "level": "easy" },
+
+    { "id": 36, "question": "फाइल खोलने का फंक्शन?", "options": ["open()", "read()", "file()", "load()"], "answer": "open()", "level": "easy" },
+    { "id": 37, "question": "फाइल पढ़ने का मोड?", "options": ["r", "w", "a", "x"], "answer": "r", "level": "easy" },
+    { "id": 38, "question": "फाइल लिखने का मोड?", "options": ["w", "r", "a", "x"], "answer": "w", "level": "easy" },
+    { "id": 39, "question": "फाइल में जोड़ने का मोड?", "options": ["a", "w", "r", "x"], "answer": "a", "level": "easy" },
+    { "id": 40, "question": "फाइल अपने आप बंद करने का तरीका?", "options": ["with", "close", "end", "stop"], "answer": "with", "level": "medium" },
+
+    { "id": 41, "question": "रैंडम नंबर के लिए कौन सा मॉड्यूल?", "options": ["random", "math", "numbers", "rand"], "answer": "random", "level": "easy" },
+    { "id": 42, "question": "रैंडम इन्टिजर का फंक्शन?", "options": ["randint()", "random()", "rand()", "range()"], "answer": "randint()", "level": "easy" },
+    { "id": 43, "question": "इनहेरिटेंस कैसे किया जाता है?", "options": ["class के अंदर", "extends", "inherits", "super"], "answer": "class के अंदर", "level": "medium" },
+    { "id": 44, "question": "पैरेंट कंस्ट्रक्टर कॉल कैसे करते हैं?", "options": ["super()", "parent()", "base()", "this()"], "answer": "super()", "level": "medium" },
+    { "id": 45, "question": "करंट ऑब्जेक्ट को कौन दर्शाता है?", "options": ["self", "this", "current", "object"], "answer": "self", "level": "easy" },
+
+    { "id": 46, "question": "डुप्लिकेट की अनुमति न देने वाला डेटा टाइप?", "options": ["Set", "List", "Tuple", "Dictionary"], "answer": "Set", "level": "easy" },
+    { "id": 47, "question": "डेटा टाइप जानने का फंक्शन?", "options": ["type()", "typeof()", "kind()", "class()"], "answer": "type()", "level": "easy" },
+    { "id": 48, "question": "वेरिएबल हटाने का कीवर्ड?", "options": ["del", "remove", "delete", "clear"], "answer": "del", "level": "easy" },
+    { "id": 49, "question": "कोई वैल्यू न होने को क्या कहते हैं?", "options": ["None", "null", "0", "false"], "answer": "None", "level": "easy" },
+    { "id": 50, "question": "Python किस प्रकार की भाषा है?", "options": ["Interpreted", "Compiled", "Machine", "Assembly"], "answer": "Interpreted", "level": "easy" }
+  ]
+}

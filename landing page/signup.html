@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+ 
+body{
+        background-color: #DEC4FF;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .main{
+        margin: 75px auto;
+        text-align: center;
+        background-color:#F9F5FF;
+        height: 80vh;
+        width: 500px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+
+    .heading{
+        color: #b617ff;
+    }
+
+    .input{
+        border-radius: 10px;
+        border:none;
+        border: rgb(230, 230, 230) 1px solid;
+        padding: 5px 15px;
+        width: 300px;
+        height: 30px;
+        margin: 10px;
+    } 
+
+    .input:focus{
+        border: none;
+        border: 1px solid purple;
+        box-shadow: 0 0 5px purple;
+    }
+
+    .button{
+        border-radius: 10px;
+        background-color: rgb(228, 141, 255);
+        width: 310px;
+        height: 50px;
+        border: 1px solid purple;
+        margin-top: 20px;
+         
+    }
+
+    .button:hover{
+       background: linear-gradient(rgb(255, 159, 255),purple);
+    }
+
+    img{
+        padding-inline-end: 0;
+        margin: 0px;
+        border-radius: 1px;
+      
+    }
+    .image{
+        border-radius: 10px;
+        height: 83vh;
+        width: 600px;
+    }
+    
+</style>
+<body>
+        <div class="main">
+            <h1 class="heading">Welcome Back to QuizCore</h1>
+    
+            <input type="email" placeholder="Enter you email or mobile no." class="input">
+
+            <input type="password" placeholder="Enter password" class="input">
+            
+
+            <button class="button"><b>continue</b></button>
+    
+            <h4>or continue with</h4>
+            <button class="button"><img src="./google-symbol.png" alt="Google" height="16px" >Google</button>
+            <button class="button"><img src="./apple.png" alt="apple" height="16px">Apple</button>
+    
+    
+    </div>
+</body>
+</html>

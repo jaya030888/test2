@@ -1,0 +1,71 @@
+{
+  "html": [
+    {
+      "id": 1,
+      "question": "What does HTML stand for?",
+      "options": [
+        "Hyper Text Markup Language",
+        "High Text Machine Language",
+        "Hyperlinks and Text Markup Language",
+        "Home Tool Markup Language"
+      ],
+      "answer": "Hyper Text Markup Language",
+      "level": "easy"
+    }
+  ],
+
+  "css": [
+    {
+      "id": 1,
+      "question": "What does CSS stand for?",
+      "options": [
+        "Cascading Style Sheets",
+        "Creative Style Sheets",
+        "Colorful Style Sheets",
+        "Computer Style Sheets"
+      ],
+      "answer": "Cascading Style Sheets",
+      "level": "easy"
+    }
+  ],
+
+  "javascript": [
+    {
+      "id": 1,
+      "question": "Which keyword is used to declare a variable?",
+      "options": ["var", "int", "string", "float"],
+      "answer": "var",
+      "level": "easy"
+    }
+  ],
+
+  "maths": [
+    {
+      "id": 1,
+      "question": "What is the value of 9 × 7?",
+      "options": ["56", "63", "72", "49"],
+      "answer": "63",
+      "level": "easy"
+    }
+  ],
+
+  "english": [
+    {
+      "id": 1,
+      "question": "Choose the correct spelling:",
+      "options": ["Definately", "Definitely", "Definetely", "Definatly"],
+      "answer": "Definitely",
+      "level": "easy"
+    }
+  ],
+
+  "python": [
+    {
+      "id": 1,
+      "question": "Which keyword is used to define a function?",
+      "options": ["func", "define", "def", "function"],
+      "answer": "def",
+      "level": "easy"
+    }
+  ]
+}

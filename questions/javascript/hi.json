@@ -1,0 +1,63 @@
+{
+  "javascript": [
+    { "id": 1, "question": "JavaScript क्या है?", "options": ["प्रोग्रामिंग भाषा", "मार्कअप भाषा", "स्टाइलिंग भाषा", "डेटाबेस"], "answer": "प्रोग्रामिंग भाषा", "level": "easy" },
+    { "id": 2, "question": "वेरिएबल घोषित करने के लिए कौन सा कीवर्ड है?", "options": ["var", "int", "string", "float"], "answer": "var", "level": "easy" },
+    { "id": 3, "question": "ब्लॉक स्कोप वाला कीवर्ड कौन सा है?", "options": ["let", "var", "const", "let और const दोनों"], "answer": "let और const दोनों", "level": "easy" },
+    { "id": 4, "question": "कॉन्स्टेंट घोषित करने का कीवर्ड?", "options": ["const", "let", "var", "fixed"], "answer": "const", "level": "easy" },
+    { "id": 5, "question": "सिंगल लाइन कमेंट कैसे लिखते हैं?", "options": ["//", "<!-- -->", "#", "**"], "answer": "//", "level": "easy" },
+
+    { "id": 6, "question": "कौन सा प्रिमिटिव डेटा टाइप नहीं है?", "options": ["Object", "Number", "String", "Boolean"], "answer": "Object", "level": "medium" },
+    { "id": 7, "question": "कंसोल में आउटपुट कैसे दिखाते हैं?", "options": ["console.log()", "print()", "log()", "output()"], "answer": "console.log()", "level": "easy" },
+    { "id": 8, "question": "सख्त समानता ऑपरेटर कौन सा है?", "options": ["===", "=", "!=", "+"], "answer": "===", "level": "easy" },
+    { "id": 9, "question": "वैल्यू असाइन करने का ऑपरेटर?", "options": ["=", "==", "===", "!="], "answer": "=", "level": "easy" },
+    { "id": 10, "question": "कंडीशन चेक करने के लिए क्या उपयोग होता है?", "options": ["if", "when", "check", "case"], "answer": "if", "level": "easy" },
+
+    { "id": 11, "question": "कौन सा लूप कम से कम एक बार चलता है?", "options": ["do...while", "for", "while", "foreach"], "answer": "do...while", "level": "medium" },
+    { "id": 12, "question": "निश्चित बार चलने वाले लूप के लिए कौन सा सही है?", "options": ["for", "while", "do...while", "loop"], "answer": "for", "level": "easy" },
+    { "id": 13, "question": "लूप रोकने के लिए क्या उपयोग होता है?", "options": ["break", "stop", "exit", "end"], "answer": "break", "level": "easy" },
+    { "id": 14, "question": "इटरेशन स्किप करने के लिए क्या उपयोग होता है?", "options": ["continue", "skip", "next", "pass"], "answer": "continue", "level": "easy" },
+    { "id": 15, "question": "फंक्शन बनाने के लिए कौन सा कीवर्ड है?", "options": ["function", "func", "define", "method"], "answer": "function", "level": "easy" },
+
+    { "id": 16, "question": "Arrow function किस वर्जन में आया?", "options": ["ES6", "ES5", "ES3", "ES7"], "answer": "ES6", "level": "medium" },
+    { "id": 17, "question": "Arrow function का सिंबल क्या है?", "options": ["=>", "->", "<=", "==>"], "answer": "=>", "level": "easy" },
+    { "id": 18, "question": "ब्राउज़र विंडो को कौन सा ऑब्जेक्ट दर्शाता है?", "options": ["window", "document", "screen", "navigator"], "answer": "window", "level": "easy" },
+    { "id": 19, "question": "HTML डॉक्यूमेंट को कौन सा ऑब्जेक्ट दर्शाता है?", "options": ["document", "window", "dom", "html"], "answer": "document", "level": "easy" },
+    { "id": 20, "question": "ID से एलिमेंट कैसे चुनते हैं?", "options": ["getElementById()", "querySelector()", "getId()", "selectId()"], "answer": "getElementById()", "level": "easy" },
+
+    { "id": 21, "question": "पहला मैचिंग एलिमेंट कौन सा मेथड चुनता है?", "options": ["querySelector()", "getElementsByClassName()", "queryAll()", "select()"], "answer": "querySelector()", "level": "easy" },
+    { "id": 22, "question": "एक से अधिक एलिमेंट चुनने का मेथड?", "options": ["querySelectorAll()", "querySelector()", "getElement()", "selectAll()"], "answer": "querySelectorAll()", "level": "easy" },
+    { "id": 23, "question": "बटन क्लिक पर कौन सा इवेंट होता है?", "options": ["click", "hover", "load", "submit"], "answer": "click", "level": "easy" },
+    { "id": 24, "question": "पेज लोड होने पर कौन सा इवेंट चलता है?", "options": ["load", "open", "start", "ready"], "answer": "load", "level": "easy" },
+    { "id": 25, "question": "एरर हैंडलिंग के लिए क्या उपयोग होता है?", "options": ["try, catch, throw", "if", "loop", "switch"], "answer": "try, catch, throw", "level": "medium" },
+
+    { "id": 26, "question": "JSON को ऑब्जेक्ट में बदलने का मेथड?", "options": ["JSON.parse()", "JSON.stringify()", "parseJSON()", "toObject()"], "answer": "JSON.parse()", "level": "easy" },
+    { "id": 27, "question": "ऑब्जेक्ट को JSON में बदलने का मेथड?", "options": ["JSON.stringify()", "JSON.parse()", "objectToJSON()", "convert()"], "answer": "JSON.stringify()", "level": "easy" },
+    { "id": 28, "question": "ऑब्जेक्ट बनाने के लिए कौन सा कीवर्ड है?", "options": ["new", "create", "object", "make"], "answer": "new", "level": "easy" },
+    { "id": 29, "question": "Array के अंत में एलिमेंट जोड़ने का मेथड?", "options": ["push()", "pop()", "shift()", "unshift()"], "answer": "push()", "level": "easy" },
+    { "id": 30, "question": "Array का अंतिम एलिमेंट हटाने का मेथड?", "options": ["pop()", "push()", "shift()", "remove()"], "answer": "pop()", "level": "easy" },
+
+    { "id": 31, "question": "Array का पहला एलिमेंट हटाने का मेथड?", "options": ["shift()", "unshift()", "pop()", "splice()"], "answer": "shift()", "level": "easy" },
+    { "id": 32, "question": "Array के शुरू में एलिमेंट जोड़ने का मेथड?", "options": ["unshift()", "shift()", "push()", "add()"], "answer": "unshift()", "level": "easy" },
+    { "id": 33, "question": "डेटा टाइप चेक करने का ऑपरेटर?", "options": ["typeof", "type", "instance", "check"], "answer": "typeof", "level": "easy" },
+    { "id": 34, "question": "खाली वैल्यू क्या दर्शाता है?", "options": ["null", "undefined", "0", "false"], "answer": "null", "level": "medium" },
+    { "id": 35, "question": "जिसे वैल्यू असाइन न हो वह क्या कहलाता है?", "options": ["undefined", "null", "NaN", "false"], "answer": "undefined", "level": "medium" },
+
+    { "id": 36, "question": "क्लास बनाने के लिए कौन सा कीवर्ड है?", "options": ["class", "object", "struct", "define"], "answer": "class", "level": "easy" },
+    { "id": 37, "question": "इनहेरिटेंस के लिए कौन सा कीवर्ड है?", "options": ["extends", "inherits", "super", "parent"], "answer": "extends", "level": "medium" },
+    { "id": 38, "question": "पैरेंट कंस्ट्रक्टर कॉल करने का कीवर्ड?", "options": ["super", "this", "parent", "base"], "answer": "super", "level": "medium" },
+    { "id": 39, "question": "करंट ऑब्जेक्ट को कौन दर्शाता है?", "options": ["this", "self", "current", "object"], "answer": "this", "level": "easy" },
+    { "id": 40, "question": "रिफ्रेश के बाद भी कौन सा स्टोरेज रहता है?", "options": ["localStorage", "sessionStorage", "cookie", "cache"], "answer": "localStorage", "level": "medium" },
+
+    { "id": 41, "question": "टैब बंद करने पर कौन सा स्टोरेज साफ हो जाता है?", "options": ["sessionStorage", "localStorage", "cookie", "indexDB"], "answer": "sessionStorage", "level": "medium" },
+    { "id": 42, "question": "डिले के बाद कोड चलाने का फंक्शन?", "options": ["setTimeout()", "setInterval()", "delay()", "wait()"], "answer": "setTimeout()", "level": "easy" },
+    { "id": 43, "question": "बार-बार कोड चलाने का फंक्शन?", "options": ["setInterval()", "setTimeout()", "loop()", "repeat()"], "answer": "setInterval()", "level": "easy" },
+    { "id": 44, "question": "Interval रोकने का मेथड?", "options": ["clearInterval()", "stopInterval()", "remove()", "clear()"], "answer": "clearInterval()", "level": "easy" },
+    { "id": 45, "question": "Asynchronous कोड को कौन संभालता है?", "options": ["Promise, async/await, callback", "loop", "condition", "class"], "answer": "Promise, async/await, callback", "level": "medium" },
+
+    { "id": 46, "question": "फंक्शन को async बनाने का कीवर्ड?", "options": ["async", "await", "promise", "thread"], "answer": "async", "level": "easy" },
+    { "id": 47, "question": "Promise का रिज़ल्ट पाने का कीवर्ड?", "options": ["await", "async", "then", "wait"], "answer": "await", "level": "easy" },
+    { "id": 48, "question": "API कॉल करने का मेथड?", "options": ["fetch()", "get()", "request()", "api()"], "answer": "fetch()", "level": "easy" },
+    { "id": 49, "question": "Fetch में रिस्पॉन्स हैंडल करने के मेथड?", "options": ["then, catch, finally", "if", "loop", "switch"], "answer": "then, catch, finally", "level": "medium" },
+    { "id": 50, "question": "JavaScript कहाँ चलता है?", "options": ["ब्राउज़र और सर्वर दोनों", "सिर्फ ब्राउज़र", "सिर्फ सर्वर", "IDE"], "answer": "ब्राउज़र और सर्वर दोनों", "level": "easy" }
+  ]
+}

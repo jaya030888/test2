@@ -1,0 +1,63 @@
+{
+  "html": [
+    { "id": 1, "question": "HTML का पूरा नाम क्या है?", "options": ["हाइपर टेक्स्ट मार्कअप लैंग्वेज", "हाई टेक्स्ट मशीन लैंग्वेज", "हाइपर लिंक टेक्स्ट लैंग्वेज", "होम टूल लैंग्वेज"], "answer": "हाइपर टेक्स्ट मार्कअप लैंग्वेज", "level": "easy" },
+    { "id": 2, "question": "सबसे बड़ा हेडिंग टैग कौन सा है?", "options": ["<h6>", "<h4>", "<h1>", "<head>"], "answer": "<h1>", "level": "easy" },
+    { "id": 3, "question": "पैराग्राफ के लिए कौन सा टैग उपयोग होता है?", "options": ["<p>", "<text>", "<para>", "<pg>"], "answer": "<p>", "level": "easy" },
+    { "id": 4, "question": "लाइन ब्रेक के लिए कौन सा टैग है?", "options": ["<br>", "<break>", "<lb>", "<line>"], "answer": "<br>", "level": "easy" },
+    { "id": 5, "question": "इमेज जोड़ने के लिए कौन सा टैग है?", "options": ["<img>", "<image>", "<pic>", "<src>"], "answer": "<img>", "level": "easy" },
+
+    { "id": 6, "question": "इमेज का पाथ देने के लिए कौन सा एट्रिब्यूट है?", "options": ["src", "href", "path", "link"], "answer": "src", "level": "easy" },
+    { "id": 7, "question": "हाइपरलिंक बनाने के लिए कौन सा टैग है?", "options": ["<a>", "<link>", "<href>", "<url>"], "answer": "<a>", "level": "easy" },
+    { "id": 8, "question": "लिंक को नए टैब में खोलने के लिए क्या उपयोग होता है?", "options": ["target='_blank'", "new='tab'", "open", "blank"], "answer": "target='_blank'", "level": "medium" },
+    { "id": 9, "question": "अनऑर्डर्ड लिस्ट के लिए कौन सा टैग है?", "options": ["<ul>", "<ol>", "<li>", "<list>"], "answer": "<ul>", "level": "easy" },
+    { "id": 10, "question": "ऑर्डर्ड लिस्ट के लिए कौन सा टैग है?", "options": ["<ol>", "<ul>", "<list>", "<order>"], "answer": "<ol>", "level": "easy" },
+
+    { "id": 11, "question": "टेबल रो के लिए कौन सा टैग है?", "options": ["<tr>", "<td>", "<th>", "<row>"], "answer": "<tr>", "level": "easy" },
+    { "id": 12, "question": "टेबल डेटा के लिए कौन सा टैग है?", "options": ["<td>", "<tr>", "<th>", "<data>"], "answer": "<td>", "level": "easy" },
+    { "id": 13, "question": "टेबल हेडिंग के लिए कौन सा टैग है?", "options": ["<th>", "<td>", "<tr>", "<head>"], "answer": "<th>", "level": "easy" },
+    { "id": 14, "question": "फॉर्म बनाने के लिए कौन सा टैग है?", "options": ["<form>", "<input>", "<label>", "<fieldset>"], "answer": "<form>", "level": "easy" },
+    { "id": 15, "question": "पासवर्ड इनपुट के लिए कौन सा टाइप है?", "options": ["password", "text", "secure", "hidden"], "answer": "password", "level": "easy" },
+
+    { "id": 16, "question": "HTML किस प्रकार की भाषा है?", "options": ["प्रोग्रामिंग", "मार्कअप", "स्टाइलिंग", "डेटाबेस"], "answer": "मार्कअप", "level": "easy" },
+    { "id": 17, "question": "इमेज के लिए वैकल्पिक टेक्स्ट कौन सा एट्रिब्यूट देता है?", "options": ["alt", "title", "name", "src"], "answer": "alt", "level": "easy" },
+    { "id": 18, "question": "सेमांटिक टैग कौन सा है?", "options": ["<div>", "<span>", "<section>", "<font>"], "answer": "<section>", "level": "medium" },
+    { "id": 19, "question": "HTML5 में कौन से टैग जोड़े गए?", "options": ["सेमांटिक टैग", "टेबल टैग", "फॉन्ट टैग", "फ्रेम टैग"], "answer": "सेमांटिक टैग", "level": "medium" },
+    { "id": 20, "question": "फूटर के लिए कौन सा टैग है?", "options": ["<footer>", "<bottom>", "<end>", "<foot>"], "answer": "<footer>", "level": "easy" },
+
+    { "id": 21, "question": "JavaScript जोड़ने के लिए कौन सा टैग है?", "options": ["<script>", "<js>", "<javascript>", "<code>"], "answer": "<script>", "level": "easy" },
+    { "id": 22, "question": "CSS जोड़ने के लिए कौन सा टैग है?", "options": ["<link>", "<style>", "<css>", "<script>"], "answer": "<link>", "level": "easy" },
+    { "id": 23, "question": "इनलाइन एलिमेंट कौन सा है?", "options": ["<span>", "<div>", "<section>", "<article>"], "answer": "<span>", "level": "medium" },
+    { "id": 24, "question": "ब्लॉक लेवल एलिमेंट कौन सा है?", "options": ["<div>", "<span>", "<a>", "<img>"], "answer": "<div>", "level": "easy" },
+    { "id": 25, "question": "HTML कमेंट कैसे लिखते हैं?", "options": ["<!-- -->", "//", "/* */", "#"], "answer": "<!-- -->", "level": "easy" },
+
+    { "id": 26, "question": "वीडियो जोड़ने के लिए कौन सा टैग है?", "options": ["<video>", "<media>", "<movie>", "<mp4>"], "answer": "<video>", "level": "easy" },
+    { "id": 27, "question": "ऑडियो जोड़ने के लिए कौन सा टैग है?", "options": ["<audio>", "<sound>", "<mp3>", "<music>"], "answer": "<audio>", "level": "easy" },
+    { "id": 28, "question": "इनपुट को अनिवार्य कैसे बनाते हैं?", "options": ["required", "must", "important", "validate"], "answer": "required", "level": "easy" },
+    { "id": 29, "question": "ड्रॉपडाउन के लिए कौन सा टैग है?", "options": ["<select>", "<option>", "<list>", "<dropdown>"], "answer": "<select>", "level": "easy" },
+    { "id": 30, "question": "ड्रॉपडाउन ऑप्शन के लिए कौन सा टैग है?", "options": ["<option>", "<select>", "<choice>", "<item>"], "answer": "<option>", "level": "easy" },
+
+    { "id": 31, "question": "HTML फाइल का एक्सटेंशन क्या होता है?", "options": [".html", ".htm", "दोनों .html और .htm", ".web"], "answer": "दोनों .html और .htm", "level": "easy" },
+    { "id": 32, "question": "iframe किस लिए उपयोग होता है?", "options": ["वेबपेज एम्बेड करने के लिए", "इमेज के लिए", "CSS के लिए", "JS के लिए"], "answer": "वेबपेज एम्बेड करने के लिए", "level": "medium" },
+    { "id": 33, "question": "मेटाडेटा कहाँ लिखा जाता है?", "options": ["<head>", "<body>", "<meta>", "<title>"], "answer": "<head>", "level": "easy" },
+    { "id": 34, "question": "पेज का टाइटल कहाँ लिखा जाता है?", "options": ["<title>", "<head>", "<meta>", "<name>"], "answer": "<title>", "level": "easy" },
+    { "id": 35, "question": "भाषा बताने के लिए कौन सा एट्रिब्यूट है?", "options": ["lang", "type", "charset", "region"], "answer": "lang", "level": "easy" },
+
+    { "id": 36, "question": "ईमेल इनपुट के लिए कौन सा टाइप है?", "options": ["email", "mail", "text", "contact"], "answer": "email", "level": "easy" },
+    { "id": 37, "question": "फॉर्म एलिमेंट्स को ग्रुप करने के लिए कौन सा टैग है?", "options": ["<fieldset>", "<group>", "<section>", "<div>"], "answer": "<fieldset>", "level": "medium" },
+    { "id": 38, "question": "इनपुट को डिसेबल करने के लिए क्या उपयोग होता है?", "options": ["disabled", "readonly", "block", "stop"], "answer": "disabled", "level": "easy" },
+    { "id": 39, "question": "टेक्स्ट को हाइलाइट करने के लिए कौन सा टैग है?", "options": ["<mark>", "<em>", "<strong>", "<i>"], "answer": "<mark>", "level": "easy" },
+    { "id": 40, "question": "आर्टिकल कंटेंट के लिए कौन सा टैग है?", "options": ["<article>", "<section>", "<div>", "<main>"], "answer": "<article>", "level": "medium" },
+
+    { "id": 41, "question": "मुख्य कंटेंट के लिए कौन सा टैग है?", "options": ["<main>", "<body>", "<section>", "<content>"], "answer": "<main>", "level": "medium" },
+    { "id": 42, "question": "नेविगेशन के लिए कौन सा टैग है?", "options": ["<nav>", "<menu>", "<links>", "<navigate>"], "answer": "<nav>", "level": "easy" },
+    { "id": 43, "question": "HTML5 में प्रोग्रेस बार किस टैग से बनता है?", "options": ["<progress>", "<meter>", "<bar>", "<status>"], "answer": "<progress>", "level": "medium" },
+    { "id": 44, "question": "फॉन्ट टैग क्यों उपयोग नहीं होता?", "options": ["Deprecated है", "Slow है", "Error देता है", "काम नहीं करता"], "answer": "Deprecated है", "level": "medium" },
+    { "id": 45, "question": "इनलाइन CSS कहाँ लिखा जाता है?", "options": ["style attribute में", "<style> टैग में", "external file में", "script में"], "answer": "style attribute में", "level": "medium" },
+
+    { "id": 46, "question": "सेमांटिक टैग का लाभ क्या है?", "options": ["SEO बेहतर", "डिज़ाइन", "स्पीड", "डेटाबेस"], "answer": "SEO बेहतर", "level": "medium" },
+    { "id": 47, "question": "कौन सा टैग डिप्रिकेटेड है?", "options": ["<font>", "<section>", "<article>", "<nav>"], "answer": "<font>", "level": "easy" },
+    { "id": 48, "question": "HTML केस सेंसिटिव है?", "options": ["नहीं", "हाँ", "कभी-कभी", "ब्राउज़र पर निर्भर"], "answer": "नहीं", "level": "easy" },
+    { "id": 49, "question": "HTML को कौन सा ब्राउज़र रन करता है?", "options": ["वेब ब्राउज़र", "कंपाइलर", "इंटरप्रेटर", "IDE"], "answer": "वेब ब्राउज़र", "level": "easy" },
+    { "id": 50, "question": "HTML किसके लिए उपयोग होता है?", "options": ["वेब पेज स्ट्रक्चर", "स्टाइलिंग", "लॉजिक", "डेटाबेस"], "answer": "वेब पेज स्ट्रक्चर", "level": "easy" }
+  ]
+}

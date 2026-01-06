@@ -1,0 +1,71 @@
+{
+  "html": [
+    {
+      "id": 1,
+      "question": "HTML का पूरा नाम क्या है?",
+      "options": [
+        "हाइपर टेक्स्ट मार्कअप लैंग्वेज",
+        "हाई टेक्स्ट मशीन लैंग्वेज",
+        "हाइपर लिंक और टेक्स्ट मार्कअप लैंग्वेज",
+        "होम टूल मार्कअप लैंग्वेज"
+      ],
+      "answer": "हाइपर टेक्स्ट मार्कअप लैंग्वेज",
+      "level": "easy"
+    }
+  ],
+
+  "css": [
+    {
+      "id": 1,
+      "question": "CSS का पूरा नाम क्या है?",
+      "options": [
+        "कैस्केडिंग स्टाइल शीट्स",
+        "क्रिएटिव स्टाइल शीट्स",
+        "कलरफुल स्टाइल शीट्स",
+        "कंप्यूटर स्टाइल शीट्स"
+      ],
+      "answer": "कैस्केडिंग स्टाइल शीट्स",
+      "level": "easy"
+    }
+  ],
+
+  "javascript": [
+    {
+      "id": 1,
+      "question": "वेरिएबल घोषित करने के लिए किस कीवर्ड का उपयोग होता है?",
+      "options": ["var", "int", "string", "float"],
+      "answer": "var",
+      "level": "easy"
+    }
+  ],
+
+  "maths": [
+    {
+      "id": 1,
+      "question": "9 × 7 का मान क्या है?",
+      "options": ["56", "63", "72", "49"],
+      "answer": "63",
+      "level": "easy"
+    }
+  ],
+
+  "english": [
+    {
+      "id": 1,
+      "question": "सही वर्तनी चुनें:",
+      "options": ["Definately", "Definitely", "Definetely", "Definatly"],
+      "answer": "Definitely",
+      "level": "easy"
+    }
+  ],
+
+  "python": [
+    {
+      "id": 1,
+      "question": "फंक्शन बनाने के लिए किस कीवर्ड का उपयोग किया जाता है?",
+      "options": ["func", "define", "def", "function"],
+      "answer": "def",
+      "level": "easy"
+    }
+  ]
+}

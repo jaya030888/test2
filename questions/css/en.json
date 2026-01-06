@@ -1,0 +1,63 @@
+{
+  "css": [
+    { "id": 1, "question": "What does CSS stand for?", "options": ["Cascading Style Sheets", "Creative Style Sheets", "Colorful Style Sheets", "Computer Style Sheets"], "answer": "Cascading Style Sheets", "level": "easy" },
+    { "id": 2, "question": "Which CSS property is used to change text color?", "options": ["color", "text-color", "font-color", "fgcolor"], "answer": "color", "level": "easy" },
+    { "id": 3, "question": "Which property changes background color?", "options": ["background-color", "bgcolor", "color", "background"], "answer": "background-color", "level": "easy" },
+    { "id": 4, "question": "Which CSS property controls text size?", "options": ["font-size", "text-size", "size", "font"], "answer": "font-size", "level": "easy" },
+    { "id": 5, "question": "Which symbol is used for class selector?", "options": [".", "#", "*", "&"], "answer": ".", "level": "easy" },
+
+    { "id": 6, "question": "Which symbol is used for id selector?", "options": ["#", ".", "*", "$"], "answer": "#", "level": "easy" },
+    { "id": 7, "question": "Which property is used to change font?", "options": ["font-family", "font-style", "font-weight", "font-type"], "answer": "font-family", "level": "easy" },
+    { "id": 8, "question": "Which property makes text bold?", "options": ["font-weight", "font-style", "text-bold", "weight"], "answer": "font-weight", "level": "easy" },
+    { "id": 9, "question": "Which property adds space inside an element?", "options": ["padding", "margin", "border", "spacing"], "answer": "padding", "level": "easy" },
+    { "id": 10, "question": "Which property adds space outside an element?", "options": ["margin", "padding", "border", "gap"], "answer": "margin", "level": "easy" },
+
+    { "id": 11, "question": "Which property is used to add border?", "options": ["border", "outline", "edge", "stroke"], "answer": "border", "level": "easy" },
+    { "id": 12, "question": "Which property rounds corners?", "options": ["border-radius", "corner-radius", "radius", "round"], "answer": "border-radius", "level": "easy" },
+    { "id": 13, "question": "Which display value hides element?", "options": ["none", "hidden", "block", "inline"], "answer": "none", "level": "easy" },
+    { "id": 14, "question": "Which property controls element width?", "options": ["width", "size", "length", "max-width"], "answer": "width", "level": "easy" },
+    { "id": 15, "question": "Which property controls height?", "options": ["height", "size", "length", "max-height"], "answer": "height", "level": "easy" },
+
+    { "id": 16, "question": "Which property aligns text center?", "options": ["text-align", "align-text", "center", "position"], "answer": "text-align", "level": "easy" },
+    { "id": 17, "question": "Which value centers text?", "options": ["center", "middle", "left", "right"], "answer": "center", "level": "easy" },
+    { "id": 18, "question": "Which property controls visibility?", "options": ["visibility", "display", "show", "opacity"], "answer": "visibility", "level": "medium" },
+    { "id": 19, "question": "Which value hides element but keeps space?", "options": ["hidden", "none", "collapse", "invisible"], "answer": "hidden", "level": "medium" },
+    { "id": 20, "question": "Which unit is relative to parent?", "options": ["%", "px", "cm", "mm"], "answer": "%", "level": "easy" },
+
+    { "id": 21, "question": "Which unit is relative to viewport width?", "options": ["vw", "vh", "em", "%"], "answer": "vw", "level": "medium" },
+    { "id": 22, "question": "Which property is used for shadow?", "options": ["box-shadow", "shadow", "border-shadow", "text-shadow"], "answer": "box-shadow", "level": "easy" },
+    { "id": 23, "question": "Which property makes text italic?", "options": ["font-style", "font-weight", "text-style", "italic"], "answer": "font-style", "level": "easy" },
+    { "id": 24, "question": "Which value makes text italic?", "options": ["italic", "bold", "normal", "light"], "answer": "italic", "level": "easy" },
+    { "id": 25, "question": "Which property changes cursor style?", "options": ["cursor", "mouse", "pointer", "hover"], "answer": "cursor", "level": "easy" },
+
+    { "id": 26, "question": "Which cursor value shows hand?", "options": ["pointer", "hand", "click", "grab"], "answer": "pointer", "level": "easy" },
+    { "id": 27, "question": "Which property controls element position?", "options": ["position", "display", "float", "align"], "answer": "position", "level": "easy" },
+    { "id": 28, "question": "Which position value is default?", "options": ["static", "relative", "absolute", "fixed"], "answer": "static", "level": "easy" },
+    { "id": 29, "question": "Which property moves element?", "options": ["top, right, bottom, left", "margin", "padding", "float"], "answer": "top, right, bottom, left", "level": "medium" },
+    { "id": 30, "question": "Which property floats element?", "options": ["float", "align", "position", "display"], "answer": "float", "level": "easy" },
+
+    { "id": 31, "question": "Which value clears float?", "options": ["clear", "none", "fix", "reset"], "answer": "clear", "level": "medium" },
+    { "id": 32, "question": "Which property controls transparency?", "options": ["opacity", "visibility", "display", "filter"], "answer": "opacity", "level": "easy" },
+    { "id": 33, "question": "Which value means fully transparent?", "options": ["0", "1", "100", "none"], "answer": "0", "level": "easy" },
+    { "id": 34, "question": "Which property is used for animation?", "options": ["animation", "transition", "transform", "motion"], "answer": "animation", "level": "medium" },
+    { "id": 35, "question": "Which property is used for smooth change?", "options": ["transition", "animation", "transform", "hover"], "answer": "transition", "level": "easy" },
+
+    { "id": 36, "question": "Which pseudo-class is used for hover?", "options": [":hover", ":active", ":focus", ":visited"], "answer": ":hover", "level": "easy" },
+    { "id": 37, "question": "Which pseudo-class targets first child?", "options": [":first-child", ":child", ":first", ":start"], "answer": ":first-child", "level": "medium" },
+    { "id": 38, "question": "Which property is used for flexbox?", "options": ["display: flex", "flex", "position", "float"], "answer": "display: flex", "level": "easy" },
+    { "id": 39, "question": "Which property aligns flex items horizontally?", "options": ["justify-content", "align-items", "flex-direction", "gap"], "answer": "justify-content", "level": "medium" },
+    { "id": 40, "question": "Which property aligns flex items vertically?", "options": ["align-items", "justify-content", "flex-wrap", "order"], "answer": "align-items", "level": "medium" },
+
+    { "id": 41, "question": "Which property is used for grid?", "options": ["display: grid", "grid", "layout", "box"], "answer": "display: grid", "level": "easy" },
+    { "id": 42, "question": "Which property sets grid columns?", "options": ["grid-template-columns", "grid-columns", "grid-col", "columns"], "answer": "grid-template-columns", "level": "medium" },
+    { "id": 43, "question": "Which property adds spacing in grid?", "options": ["gap", "margin", "padding", "space"], "answer": "gap", "level": "easy" },
+    { "id": 44, "question": "Which property transforms element?", "options": ["transform", "transition", "translate", "scale"], "answer": "transform", "level": "easy" },
+    { "id": 45, "question": "Which transform moves element?", "options": ["translate()", "rotate()", "scale()", "skew()"], "answer": "translate()", "level": "medium" },
+
+    { "id": 46, "question": "Which property rotates element?", "options": ["rotate()", "translate()", "scale()", "skew()"], "answer": "rotate()", "level": "easy" },
+    { "id": 47, "question": "Which property scales element?", "options": ["scale()", "rotate()", "move()", "zoom()"], "answer": "scale()", "level": "easy" },
+    { "id": 48, "question": "Which CSS is written inside HTML tag?", "options": ["Inline CSS", "Internal CSS", "External CSS", "Embedded CSS"], "answer": "Inline CSS", "level": "easy" },
+    { "id": 49, "question": "Which CSS is written in <style> tag?", "options": ["Internal CSS", "Inline CSS", "External CSS", "Global CSS"], "answer": "Internal CSS", "level": "easy" },
+    { "id": 50, "question": "Which CSS is written in separate file?", "options": ["External CSS", "Inline CSS", "Internal CSS", "Local CSS"], "answer": "External CSS", "level": "easy" }
+  ]
+}

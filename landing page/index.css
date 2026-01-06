@@ -1,10 +1,11 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Times New Roman', Times, serif;
-    /* background-color: rgb(183, 255, 183); */
+    
+    font-family: 'lato';
     
 }
+
 
 
 header{
@@ -15,26 +16,28 @@ header{
 }
 
 
-.Features{
-    width: 200vh;
-    height: fit-content;
-    padding: 1rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-
-
 header button{
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 600;
     border-radius: 25px;
     padding: 12px 30px;
-    background-color: white;
     display: flex;
     justify-content: center;
+      color: white;
+      background-color: #b617ff;
+      border:none;
+      box-shadow: 0 2px 5px #242424;
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
+header button:hover {
+  transform: translateY(1px) scale(0.95);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+header button:active {
+  transform: translateY(-1px) scale(0.97);
+}
 
 #excel{
     font-size: 150px;
@@ -44,7 +47,23 @@ header button{
 
 #practice{
     font-size: 80px;
-    color:#22C55E;
+    color:#9b20ff;
+    text-shadow: 0 2px 3px #242424 ;
+    
+    
+}
+
+#practice, #excel {
+  transform: translateY(40px) scale(0.95);
+  opacity: 0;
+  animation: popUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes popUp {
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
 }
 
 
@@ -67,7 +86,7 @@ header button{
 
 
 .landing span{
-    color:#22C55E;
+    color:#b617ff;
 }
 
 
@@ -76,11 +95,22 @@ header button{
       padding: 35px 60px ;
       border-radius: 50px;
       color: white;
-      background: linear-gradient(90deg,#00ea56,#00ac48);
+      background: linear-gradient(90deg,#d591ff,#b617ff);
       border:none;
       margin: 0 auto;
       font-size: 30px;
+      font-weight: 600;
+      box-shadow: 0 2px 5px #242424;
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
 
+.landing button:hover {
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+.landing button:active {
+  transform: translateY(-2px) scale(0.97);
 }
 
 
@@ -92,7 +122,7 @@ header button{
 
 .Features span{
     font-weight: bold;
-    color:#22C55E;
+    color:#9b20ff;
 }
 
 
@@ -138,14 +168,14 @@ form{
     margin-top: 2rem;
     height: 50px;
     font-size: 20px;
-    background-color: #0de05a;
+    background-color: #9b37ed;
     border: none;
     border-radius: 15px;
 }
 
 
 #getintouch button:hover{
-    background:linear-gradient(#00ac48,#0de05a,#0de05a,#00ac48);
+    background:linear-gradient(#ac63e7,#8c00ff);
 }
 
 
@@ -174,14 +204,14 @@ form{
 
 #getintouch input:focus{
     outline: none;
-    border: #00ea56 1px solid;
-    box-shadow: 0 0 0.3rem #00ea56 ;
+    border: #9b20ff 1px solid;
+    box-shadow: 0 0 0.3rem #9b20ff;
 }
 
 #getintouch textarea:focus{
     outline: none;
-    border: #00ea56 1px solid;
-    box-shadow: 0 0 0.3rem #00ea56 ;
+    border: #9b20ff 1px solid;
+    box-shadow: 0 0 0.3rem #9b20ff ;
 }
 
 #Guided_paths{
@@ -192,7 +222,7 @@ form{
 
 .Features h2{
     font-size: 2.5rem;
-    color:#00ac48;
+    color:#9b20ff;
     margin-bottom: 2rem;
 }
 
@@ -235,7 +265,7 @@ form{
 
 #journey h2 , #Guided_paths h2, #Costomize_Quiz h2{
     font-size: 3rem;
-    color:#00ac48;
+    color:#9b20ff;
     margin-bottom: 2rem;
     text-align: center;
 }
@@ -323,13 +353,13 @@ form{
 }
 
 .option_no:hover{
-    background:linear-gradient(#00ea56);
+    background:linear-gradient(#9b20ff);
     transform: translateY(-3px);
      border: none;
 }
 
 .option_no:focus{
-    background:linear-gradient(#00ea56);
+    background:linear-gradient(#9b20ff);
      border: none;
 }
 
@@ -348,13 +378,13 @@ form{
 }
 
 .option_time:hover{
-    background:linear-gradient(#00ea56);
+    background:linear-gradient(#9b20ff);
     transform: translateY(-3px);
     border: none;
 }
 
 .option_time:focus{
-    background:linear-gradient(#00ea56);
+    background:linear-gradient(#9b20ff);
      border: none;
 }
 
@@ -371,12 +401,12 @@ form{
 }
 
 .Unlimited-btn:hover{
-    background-color: #00ea56;
+    background-color: #9b20ff;
     transform: translateY(-3px);
 }
 
 .Unlimited-btn:focus{
-    background-color: #00ea56;
+    background-color: #9b20ff;
 }
 
 
@@ -397,17 +427,25 @@ img{
     padding: 15px 30px ;
     border-radius: 50px;
     color: white;
-    background: linear-gradient(90deg,#00ea56,#00ac48);
+    background: linear-gradient(90deg,#c277ff,#9b20ff);
     border:none;
     margin: 0 auto;
     margin-top: 2rem;
     font-size: 30px;
 }
 
+.start button:hover {
+  transform: translateY(-1px) scale(1.03);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+.start button:active {
+  transform: translateY(-1px) scale(0.97);
+}
 
 #getintouch h2{
     font-size: 2.5rem;
-    color:#00ac48;
+    color:#9b20ff;
     margin-bottom: 2rem;
 }
 
@@ -483,5 +521,53 @@ i{
     background-color: white;
     margin-top: 0.5rem;
     font-size: 1rem;
-    color:#0de05a
+    color:#b617ff;
+}
+
+.vdos img{
+    padding: 0;
+    margin: 0;
+    height: 250px;
+    width: 400px;
+}
+
+.Features{
+    margin: 0 auto;
+    height: 420px;
+    padding: 1rem;
+    border: 1px whitesmoke solid;
+    width: 400px;
+    box-shadow: 2px 2px 5px #474849;
+    border-radius: 20px;
+    background-color: #F7F7F7;
+}
+
+.Featur_given p{
+    padding: 5px 30px;
+    font-size:18px;
+    font-weight: 500;
+    max-width: 400px;
+}
+
+.Featur_given span{
+    color: black;
+}
+
+.Featur_given h2{
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+
+.First-row{
+    display: flex;
+    margin: 100px 0;
+}
+
+.second-row{
+    display: flex;
+    margin-bottom: 100px;
 }
