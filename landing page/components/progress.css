@@ -1,0 +1,114 @@
+/* 1. General Page Setup */
+body {
+    background-color: #f8fafc;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.dashboard-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 350px; /* Main content takes rest, sidebar is 350px */
+    gap: 25px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+/* 2. Top Stats Cards */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.stat-card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.icon-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    font-size: 22px;
+}
+
+/* Colors from Video */
+.green { background: #e6f7ef; }
+.purple { background: #f0eeff; }
+.orange { background: #fff4e6; }
+.blue { background: #e6f0ff; }
+
+.stat-card h3 { margin: 0; font-size: 20px; }
+.stat-card p { margin: 0; color: #64748b; font-size: 14px; }
+
+/* 3. Subject Progress Section */
+.subject-section {
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.subject-item {
+    margin-bottom: 20px;
+}
+
+.subject-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.bar-track {
+    height: 10px;
+    background: #f1f5f9;
+    border-radius: 10px;
+}
+
+.bar-fill {
+    height: 100%;
+    background: #10b981; /* Green Progress */
+    border-radius: 10px;
+}
+
+/* 4. Achievement Sidebar (Right Side) */
+.ach-card {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid #e2e8f0;
+}
+
+.ach-card.locked {
+    opacity: 0.5;
+    filter: grayscale(1);
+}
+
+.ach-icon {
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+.ach-card h4 { margin: 0; font-size: 15px; }
+.ach-card p { margin: 0; font-size: 12px; color: #64748b; }

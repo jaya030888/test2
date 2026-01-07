@@ -9,9 +9,7 @@ tabs.forEach(tab => {
 
 
 let backtodashboard = function(){
-  let backbtn = document.getElementsByClassName("back-btn")
 
-  backbtn[0].addEventListener("click",function(){
     window.location.href = "./home.html"
-  })
+
 }
