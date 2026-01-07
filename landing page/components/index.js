@@ -26,10 +26,10 @@ let signup = function(){
 
 let startdemo = function(){
 
-    let startdemo = document.getElementById("startdemo")
+    let startdemo = document.getElementById("startdemo") 
 
     startdemo.addEventListener("click",function(){
-        window.location.href=""
+        window.location.href="./hello.html"
     })
 }
 

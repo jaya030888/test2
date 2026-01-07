@@ -1,0 +1,62 @@
+[
+  { 
+    "id": 1, 
+    "question": "What does HTML stand for?", 
+    "options": ["Hyper Text Markup Language", "High Text Machine Language", "Hyperlinks and Text Markup Language", "Home Tool Markup Language"], 
+    "answer": 0 
+  },
+  { 
+    "id": 2, 
+    "question": "Which tag is used for the largest heading?", 
+    "options": ["<h6>", "<h4>", "<h1>", "<head>"], 
+    "answer": 2 
+  },
+  { 
+    "id": 3, 
+    "question": "Which tag is used to create a paragraph?", 
+    "options": ["<p>", "<para>", "<text>", "<pg>"], 
+    "answer": 0 
+  },
+  { 
+    "id": 4, 
+    "question": "Which tag inserts a line break?", 
+    "options": ["<br>", "<lb>", "<break>", "<line>"], 
+    "answer": 0 
+  },
+  { 
+    "id": 5, 
+    "question": "Which tag is used to insert an image?", 
+    "options": ["<img>", "<image>", "<pic>", "<src>"], 
+    "answer": 0 
+  },
+  { 
+    "id": 6, 
+    "question": "Which attribute is used to provide image path?", 
+    "options": ["src", "href", "link", "path"], 
+    "answer": 0 
+  },
+  { 
+    "id": 7, 
+    "question": "Which tag is used to create a hyperlink?", 
+    "options": ["<a>", "<link>", "<href>", "<url>"], 
+    "answer": 0 
+  },
+  { 
+    "id": 8, 
+    "question": "Which attribute opens a link in a new tab?", 
+    "options": ["target='_blank'", "new='tab'", "open='new'", "blank"], 
+    "answer": 0 
+  },
+  { 
+    "id": 9, 
+    "question": "Which tag creates an unordered list?", 
+    "options": ["<ul>", "<ol>", "<li>", "<list>"], 
+    "answer": 0 
+  },
+  { 
+    "id": 10, 
+    "question": "Which tag creates an ordered list?", 
+    "options": ["<ul>", "<list>", "<ol>", "<order>"], 
+    "answer": 2 
+  }
+]

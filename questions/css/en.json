@@ -1,5 +1,4 @@
-{
-  "css": [
+[
     { "id": 1, "question": "What does CSS stand for?", "options": ["Cascading Style Sheets", "Creative Style Sheets", "Colorful Style Sheets", "Computer Style Sheets"], "answer": "Cascading Style Sheets", "level": "easy" },
     { "id": 2, "question": "Which CSS property is used to change text color?", "options": ["color", "text-color", "font-color", "fgcolor"], "answer": "color", "level": "easy" },
     { "id": 3, "question": "Which property changes background color?", "options": ["background-color", "bgcolor", "color", "background"], "answer": "background-color", "level": "easy" },
@@ -60,4 +59,4 @@
     { "id": 49, "question": "Which CSS is written in <style> tag?", "options": ["Internal CSS", "Inline CSS", "External CSS", "Global CSS"], "answer": "Internal CSS", "level": "easy" },
     { "id": 50, "question": "Which CSS is written in separate file?", "options": ["External CSS", "Inline CSS", "Internal CSS", "Local CSS"], "answer": "External CSS", "level": "easy" }
   ]
-}
+

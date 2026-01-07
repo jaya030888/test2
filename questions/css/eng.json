@@ -1,0 +1,62 @@
+[
+  { 
+    "id": 1, 
+    "question": "What does CSS stand for?", 
+    "options": ["Cascading Style Sheets", "Creative Style Sheets", "Colorful Style Sheets", "Computer Style Sheets"], 
+    "answer": 0 
+  },
+  { 
+    "id": 2, 
+    "question": "Which CSS property is used to change text color?", 
+    "options": ["color", "text-color", "font-color", "fgcolor"], 
+    "answer": 0 
+  },
+  { 
+    "id": 3, 
+    "question": "Which property changes background color?", 
+    "options": ["background-color", "bgcolor", "color", "background"], 
+    "answer": 0 
+  },
+  { 
+    "id": 4, 
+    "question": "Which CSS property controls text size?", 
+    "options": ["font-size", "text-size", "size", "font"], 
+    "answer": 0 
+  },
+  { 
+    "id": 5, 
+    "question": "Which symbol is used for class selector?", 
+    "options": [".", "#", "*", "&"], 
+    "answer": 0 
+  },
+  { 
+    "id": 6, 
+    "question": "Which symbol is used for id selector?", 
+    "options": ["#", ".", "*", "$"], 
+    "answer": 0 
+  },
+  { 
+    "id": 7, 
+    "question": "Which property is used to change font?", 
+    "options": ["font-family", "font-style", "font-weight", "font-type"], 
+    "answer": 0 
+  },
+  { 
+    "id": 8, 
+    "question": "Which property makes text bold?", 
+    "options": ["font-weight", "font-style", "text-bold", "weight"], 
+    "answer": 0 
+  },
+  { 
+    "id": 10, 
+    "question": "Which property adds space inside an element?", 
+    "options": ["padding", "margin", "border", "spacing"], 
+    "answer": 0 
+  },
+  { 
+    "id": 11, 
+    "question": "Which property adds space outside an element?", 
+    "options": ["margin", "padding", "border", "gap"], 
+    "answer": 0 
+  }
+]

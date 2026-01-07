@@ -1,5 +1,4 @@
-{
-  "javascript": [
+[
     { "id": 1, "question": "What is JavaScript?", "options": ["Programming language", "Markup language", "Styling language", "Database"], "answer": "Programming language", "level": "easy" },
     { "id": 2, "question": "Which keyword is used to declare a variable?", "options": ["var", "int", "string", "float"], "answer": "var", "level": "easy" },
     { "id": 3, "question": "Which keyword is block scoped?", "options": ["let", "var", "const", "Both let and const"], "answer": "Both let and const", "level": "easy" },
@@ -60,4 +59,3 @@
     { "id": 49, "question": "Which method handles fetch response?", "options": ["then()", "catch()", "finally()", "All"], "answer": "All", "level": "medium" },
     { "id": 50, "question": "JavaScript runs on?", "options": ["Browser", "Server", "Both browser and server", "Only server"], "answer": "Both browser and server", "level": "easy" }
   ]
-}

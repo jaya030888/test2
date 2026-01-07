@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EduSpark Dashboard</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./components/home.css">
 </head>
 <body>
     <div class="app-container">
@@ -14,32 +14,32 @@
                 <span class="brand-name">EduSpark</span>
             </div>
             <nav class="nav-menu">
-                <div class="nav-item active">Dashboard</div>
-                <div class="nav-item">Leaderboard</div>
-                <div class="nav-item">Progress</div>
-                <div class="nav-item">Settings</div>
+                <button class="nav-item active" onclick="opendashboard()">Dashboard</button> 
+                <button class="nav-item" onclick="openleaderboard()">Leaderboard</button>
+                <button class="nav-item" onclick="openprogress()">Progress</button>
+                <button class="nav-item" onclick="opensetting()">Settings</button>
             </nav>
             <div class="logout">Log Out</div>
         </aside>
 
         <main class="content-center">
             <header class="main-header">
-                <h1>Welcome, Learner! 👋</h1>
+                <h1>Welcome Back, Learner! 👋</h1>
                 <p>Start your learning journey today!</p>
             </header>
 
             <section class="stats-row">
                 <div class="stat-card">
                     <div class="stat-icon-box trophy">🏆</div>
-                    <div class="stat-text"><strong>--</strong><label>Current Rank</label></div>
+                    <div class="stat-text"><strong>12</strong><label>Current Rank</label></div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-icon-box target">🎯</div>
-                    <div class="stat-text"><strong>0%</strong><label>Accuracy</label></div>
+                    <div class="stat-text"><strong>60%</strong><label>Accuracy</label></div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-icon-box fire">🔥</div>
-                    <div class="stat-text"><strong>0</strong><label>Day Streak</label></div>
+                    <div class="stat-text"><strong>3</strong><label>Day Streak</label></div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-icon-box clock">🕒</div>
@@ -50,32 +50,32 @@
             <section class="learning-section">
                 <h2>Continue Learning</h2>
                 <div class="subject-grid">
-                    <div class="subject-card">
+                    <div class="subject-card" onclick="html()">
                         <div class="subject-icon html">&lt;&gt;</div>
                         <h3>HTML</h3>
                         <p>Click to start quiz</p>
                     </div>
-                    <div class="subject-card">
+                    <div class="subject-card" onclick="css()">
                         <div class="subject-icon css">#</div>
                         <h3>CSS</h3>
                         <p>Click to start quiz</p>
                     </div>
-                    <div class="subject-card">
+                    <div class="subject-card" onclick="js()">
                         <div class="subject-icon js">{}</div>
                         <h3>JavaScript</h3>
                         <p>Click to start quiz</p>
                     </div>
-                    <div class="subject-card">
+                    <div class="subject-card" onclick="python()">
                         <div class="subject-icon py">>_</div>
                         <h3>Python</h3>
                         <p>Click to start quiz</p>
                     </div>
-                    <div class="subject-card">
+                    <div class="subject-card" onclick="maths()">
                         <div class="subject-icon math">🧮</div>
                         <h3>Mathematics</h3>
                         <p>Click to start quiz</p>
                     </div>
-                    <div class="subject-card">
+                    <div class="subject-card" onclick="english()">
                         <div class="subject-icon eng">📖</div>
                         <h3>English</h3>
                         <p>Click to start quiz</p>
@@ -88,7 +88,7 @@
             <div class="quick-quiz-card">
                 <h3>Quick Quiz</h3>
                 <p>Practice with 10 questions</p>
-                <button class="start-btn">Start Now <span>▷</span></button>
+                <button class="start-btn" onclick="start()">Start Now <span>▷</span></button>
             </div>
 
             <div class="activity-section">
@@ -99,7 +99,7 @@
             <div class="leaderboard-section">
                 <div class="lb-header">
                     <h4>Top Learners</h4>
-                    <span class="green-link">View All</span>
+                    <button class="green-link" onclick="openleaderboard()">View All</button>
                 </div>
                 <div class="lb-list">
                     <div class="lb-item">
@@ -124,5 +124,8 @@
             </div>
         </aside>
     </div>
+
+    <script src="./components/home.js"></script> 
 </body>
 </html>
+

@@ -1,5 +1,4 @@
-{
-  "html": [
+ [
     { "id": 1, "question": "What does HTML stand for?", "options": ["Hyper Text Markup Language", "High Text Machine Language", "Hyperlinks and Text Markup Language", "Home Tool Markup Language"], "answer": "Hyper Text Markup Language", "level": "easy" },
     { "id": 2, "question": "Which tag is used for the largest heading?", "options": ["<h6>", "<h4>", "<h1>", "<head>"], "answer": "<h1>", "level": "easy" },
     { "id": 3, "question": "Which tag is used to create a paragraph?", "options": ["<p>", "<para>", "<text>", "<pg>"], "answer": "<p>", "level": "easy" },
@@ -58,4 +57,3 @@
     { "id": 49, "question": "Which tag is used for iframe?", "options": ["<iframe>", "<frame>", "<embed>", "<window>"], "answer": "<iframe>", "level": "easy" },
     { "id": 50, "question": "HTML files have extension?", "options": [".html", ".htm", "Both .html and .htm", ".web"], "answer": "Both .html and .htm", "level": "easy" }
   ]
-}
