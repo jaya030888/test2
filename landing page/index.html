@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./components/index.css">
+
     <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -49,7 +50,7 @@
     <br>
     <p>Interactive problem solving that's <span>effective</span> and <span>fun</span>.</p>
 <br><br>
-    <button onclick="signup()" id="start">Start Quiz Now</button>
+    <button onclick="login()" id="start">Start Quiz Now</button>
     </section>
 
 
@@ -65,7 +66,7 @@
         <br><br>
         <p>Learn without limits.
              <!-- Our App instantly generates high-quality quizzes in both  -->
-              Take quizzes instantly  in
+              Take quizzes instantly  in 
              <span>English</span> and 
             <span>Hindi(हिंदी)</span>—no language barriers, just learning</p>
             </section>
@@ -85,10 +86,9 @@
         <section class="Featur_given">
         <h2>Detailed Analysis & Remarks</h2>
         <!-- <p>Ater submitting the quiz you get instant performance <span>Analysis</span>.  -->
-            <p>Get real-time <span>performance analysis.</span></p>
-            Review your mistakes with detailed <span>remarks</span> 
-            that explain the correct logic, 
-            ensuring you never repeat an error.</p>
+            <p>Get real-time <span>performance analysis.</span>
+            Review mistakes with clear <span>explanations</span>
+        
             </section>
 
         <section class="vdos">
@@ -105,11 +105,9 @@
 
         <section class="Featur_given">
         <h2>Adaptive Difficulty Levels</h2>
-        <p>Whether you are beginner or a pro,Our app adapts to you. 
-            Filter questions by
-        <span>Easy, Medium, or Hard</span>
-            to match your preparation level and challenge 
-            yourself appropriately.</p>
+        <p>Quizzes that match your level. 
+            Choose or switch between 
+        <span>Easy, Medium, or Hard </span> as you grow.</p>
         </section>
 
         <section class="vdos">
@@ -129,9 +127,8 @@
         
         <section class="Featur_given">
         <h2>Rise to the Top</h2>
-        <p>Compete with peers, earn points for every correct answer, 
-            and see where you stand. Our <span>Leaderboards</span> 
-            reset every Sunday, giving everyone a fresh chance to claim the throne.
+        <p>Earn points, compete with others, and rise on the <span>leaderboard</span>.
+            Rankings reset every Sunday—fresh starts, new winners.
         </p>
 
         </section>
@@ -151,9 +148,9 @@
 
         <section class="Featur_given">
         <h2>Track Your Progress</h2>
-        <p>Watch your skills grow with detailed analytics. 
-            See your <span>Achievements</span>,<span>Streaks</span>
-             and compete with your best scores.
+        <p>Track your growth with detailed stats.
+            View <span>achievements</span> maintain <span>streaks</span>, and beat your best scores. 
+          
         </p>
     </section>
 
@@ -226,7 +223,7 @@
         <button class="Unlimited-btn">&infin;  Unlimited Time</button>
 
         <div class="start">
-            <button id="startdemo" onclick="startdemo()">Give a Demo</button>
+            <button id="startdemo" onclick="startdemo">Give a Demo</button>
         </div>      
 
     
@@ -293,33 +290,64 @@
         </div>
     </section>
 
+    <!-- Footer Section -->
+     
+    <footer class="footer">
+        <div class="footer-container">
+    
+            <!-- Company Logo and name -->
 
-    <footer>
+            <div class="footer-brand">
+                <div class="logo">
+                    <span class="logo-icon">✨</span>
+                    <span class="logo-text">EduSpark</span>
+                </div>
+                <p>
+                    Interactive learning platform that <br>makes education fun and effective.
+                </p>
+            </div>
+    
+            <!-- Quick Links -->
 
+            <div class="footer-column">
+                <h2>Quick Links</h2>
+                <a href="#">Dashboard</a>
+                <a href="#">Leaderboard</a>
+                <a href="#">Progress</a>
+            </div>
+    
+            <!-- Subjects -->
+
+            <div class="footer-column">
+                <h2>Subjects</h2>
+                <a href="#">HTML & CSS</a>
+                <a href="#">JavaScript</a>
+                <a href="#">Python</a>
+                <a href="#">Mathematics</a>
+            </div>
+    
+            <!-- Social media links-->
+
+            <div class="footer-column">
+                <h2>Follow Us</h2>
+                <div class="social-icons">
+                    <span><img src="./pictures/insta.png"></span>
+                    <span><img src="./pictures/linkd.png"></span>
+                    <span><img src="./pictures/twitterx.png"></span>
+                    <span><img src="./pictures/Facebook.png"></span>
+                </div>
+            </div>
+    
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 EduSpark. All rights reserved.</p>
+        </div>
     </footer>
 
 
 
     <script src="./components/index.js"></script>
-
-    <script>
-
-  document.addEventListener("keydown", function (event) {
-  if (event.key === "Backspace") {
-    const tag = event.target.tagName.toLowerCase();
-    const isInput =
-      tag === "input" ||
-      tag === "textarea" ||
-      event.target.isContentEditable;
-
-    if (!isInput) {
-      event.preventDefault(); // stop browser default
-      window.history.back();  // go back
-    }
-  }
-});
-</script>
-
 </body>
 </html>
 

@@ -1,7 +1,9 @@
 *{
     padding: 0;
     margin: 0;
+    
     font-family: 'lato';
+    
 }
 
 
@@ -45,7 +47,7 @@ header button:active {
 
 #practice{
     font-size: 80px;
-    color:#26C86B;
+    color:#9b20ff;
     text-shadow: 0 2px 3px #242424 ;
     
     
@@ -120,7 +122,7 @@ header button:active {
 
 .Features span{
     font-weight: bold;
-    color:#26C86B;
+    color:#9b20ff;
 }
 
 
@@ -202,14 +204,14 @@ form{
 
 #getintouch input:focus{
     outline: none;
-    border: #26C86B 1px solid;
-    box-shadow: 0 0 0.3rem #26C86B;
+    border: #9b20ff 1px solid;
+    box-shadow: 0 0 0.3rem #9b20ff;
 }
 
 #getintouch textarea:focus{
     outline: none;
-    border: #26C86B 1px solid;
-    box-shadow: 0 0 0.3rem #26C86B ;
+    border: #9b20ff 1px solid;
+    box-shadow: 0 0 0.3rem #9b20ff ;
 }
 
 #Guided_paths{
@@ -220,7 +222,7 @@ form{
 
 .Features h2{
     font-size: 2.5rem;
-    color:#26C86B;
+    color:#9b20ff;
     margin-bottom: 2rem;
 }
 
@@ -263,7 +265,7 @@ form{
 
 #journey h2 , #Guided_paths h2, #Costomize_Quiz h2{
     font-size: 3rem;
-    color:#26C86B;
+    color:#9b20ff;
     margin-bottom: 2rem;
     text-align: center;
 }
@@ -351,13 +353,13 @@ form{
 }
 
 .option_no:hover{
-    background: linear-gradient(-135deg,#4be38d,#12ee96);
+    background:linear-gradient(#9b20ff);
     transform: translateY(-3px);
      border: none;
 }
 
 .option_no:focus{
-    background: linear-gradient(-135deg,#4be38d,#12ee96);
+    background:linear-gradient(#9b20ff);
      border: none;
 }
 
@@ -376,13 +378,13 @@ form{
 }
 
 .option_time:hover{
-    background: linear-gradient(-135deg,#4be38d,#12ee96);
+    background:linear-gradient(#9b20ff);
     transform: translateY(-3px);
     border: none;
 }
 
 .option_time:focus{
-    background: linear-gradient(-135deg,#4be38d,#12ee96);
+    background:linear-gradient(#9b20ff);
      border: none;
 }
 
@@ -399,12 +401,12 @@ form{
 }
 
 .Unlimited-btn:hover{
-    background: linear-gradient(-135deg,#4be38d,#12ee96);
+    background-color: #9b20ff;
     transform: translateY(-3px);
 }
 
 .Unlimited-btn:focus{
-    background: linear-gradient(-135deg,#4be38d,#12ee96);
+    background-color: #9b20ff;
 }
 
 
@@ -425,7 +427,7 @@ img{
     padding: 15px 30px ;
     border-radius: 50px;
     color: white;
-    background: linear-gradient(90deg,#c277ff,#26C86B);
+    background: linear-gradient(90deg,#c277ff,#9b20ff);
     border:none;
     margin: 0 auto;
     margin-top: 2rem;
@@ -443,7 +445,7 @@ img{
 
 #getintouch h2{
     font-size: 2.5rem;
-    color:#26C86B;
+    color:#9b20ff;
     margin-bottom: 2rem;
 }
 
@@ -569,112 +571,3 @@ i{
     display: flex;
     margin-bottom: 100px;
 }
-
-.footer{
-    background: radial-gradient(circle at top, #141c3a 0%, #0b1020 70%);
-    color: #cbd5e1;
-    padding: 70px 100px 30px;
-}
-
-.footer-container{
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-    gap: 90px;
-    align-items: flex-start;
-}
-
-.footer-brand .logo{
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-bottom: 16px;
-}
-
-.logo-icon{
-    background: #22c55e;
-    color: #ffffff;
-    padding: 10px;
-    border-radius: 12px;
-    font-size: 14px;
-}
-
-.logo-text{
-    font-size: 22px;
-    font-weight: 700;
-    color: #ffffff;
-}
-
-.footer-brand p{
-    font-size: 16px;
-    line-height: 1.6;
-    /* color: #94a3b8; */
-    color: #8fb2d6;
-    max-width: 320px;
-    cursor: pointer;
-}
-.footer-brand p:hover {
-    color: #ffffff;
-}
-
-.footer-column h2{
-    font-size: 17px;
-    font-weight: 600;
-    color: #ffffff;
-    margin-bottom: 18px;
-}
-
-.footer-column a{
-    display: block;
-    text-decoration: none;
-    font-size: 15px;
-    color: #8fb2d6;
-    margin-bottom: 12px;
-    transition: color 0.3s ease;
-}
-
-.footer-column a:hover{
-    color: #ffffff;
-}
-
-.social-icons{
-    display: flex;
-    gap: 16px;
-}
-
-.social-icons span{
-    width: 46px;
-    height: 46px;
-    /* background: rgba(255, 255, 255, 0.08); */
-    /* border-radius: 14px; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
-    cursor: pointer;
-}
-
-.social-icons span img{
-    width: 40px;
-    height: 40px;
-}
-
-.social-icons span:hover{
-    transform: translateY(-3px);
-}
-
-.footer-bottom{
-    margin-top: 60px;
-    padding-top: 20px;
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
-    text-align: center;
-}
-
-.footer-bottom p{
-    /* font-size: 14px; */
-    color: #64748b;
-}
-
-
-
-
-
