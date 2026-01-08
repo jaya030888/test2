@@ -15,27 +15,37 @@ header{
 
 
 header button{
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 600;
-    border-radius: 25px;
+    border-radius: 10px;
     padding: 12px 30px;
     display: flex;
     justify-content: center;
-      color: white;
-      background-color: #b617ff;
+      color: black;
+      background-color: white;
       border:none;
-      box-shadow: 0 2px 5px #242424;
+      /* box-shadow: 0 2px 5px #242424; */
       transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-header button:hover {
-  transform: translateY(1px) scale(0.95);
-  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+
+
+#loginbtn:hover{
+    background-color: #F97415;
+    transform: translateY(1px) scale(0.95);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+  color:white;
+    
 }
 
-header button:active {
-  transform: translateY(-1px) scale(0.97);
+#signupbtn:hover{
+transform: translateY(1px) scale(0.95);
+  background: linear-gradient(-135deg,#4be38d,#12ee96);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+  color:white;
 }
+
+
 
 #excel{
     font-size: 150px;
@@ -45,8 +55,8 @@ header button:active {
 
 #practice{
     font-size: 80px;
-    color:#26C86B;
-    text-shadow: 0 2px 3px #242424 ;
+    color:#16cd65;
+    text-shadow: 0 2px 3px rgb(81, 67, 67);
     
     
 }
@@ -54,7 +64,7 @@ header button:active {
 #practice, #excel {
   transform: translateY(40px) scale(0.95);
   opacity: 0;
-  animation: popUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation: popUp 1.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
 @keyframes popUp {
@@ -84,7 +94,7 @@ header button:active {
 
 
 .landing span{
-    color:#b617ff;
+    color:#21C45D;
 }
 
 
@@ -93,7 +103,7 @@ header button:active {
       padding: 35px 60px ;
       border-radius: 50px;
       color: white;
-      background: linear-gradient(90deg,#d591ff,#b617ff);
+    background: linear-gradient(90deg,#77ff82,#26C86B);
       border:none;
       margin: 0 auto;
       font-size: 30px;
@@ -166,14 +176,15 @@ form{
     margin-top: 2rem;
     height: 50px;
     font-size: 20px;
-    background-color: #9b37ed;
+    background-color: #33CA60;
     border: none;
     border-radius: 15px;
+    color:white
 }
 
 
 #getintouch button:hover{
-    background:linear-gradient(#ac63e7,#8c00ff);
+    background: linear-gradient(-135deg,#77ff82,#33CA60);
 }
 
 
@@ -425,7 +436,7 @@ img{
     padding: 15px 30px ;
     border-radius: 50px;
     color: white;
-    background: linear-gradient(90deg,#c277ff,#26C86B);
+    background: linear-gradient(90deg,#77ff82,#26C86B);
     border:none;
     margin: 0 auto;
     margin-top: 2rem;
@@ -519,7 +530,7 @@ i{
     background-color: white;
     margin-top: 0.5rem;
     font-size: 1rem;
-    color:#b617ff;
+    color:#12ee96;
 }
 
 .vdos img{
