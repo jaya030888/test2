@@ -126,6 +126,23 @@
     </div>
 
     <script src="./components/home.js"></script> 
+    <script>
+document.addEventListener("keydown", function (event) {
+  if (event.key === "Backspace") {
+    const tag = event.target.tagName.toLowerCase();
+    const isInput =
+      tag === "input" ||
+      tag === "textarea" ||
+      event.target.isContentEditable;
+
+    if (!isInput) {
+      event.preventDefault(); // stop browser default
+      window.history.back();  // go back
+    }
+  }
+});
+</script>
+
 </body>
 </html>
 

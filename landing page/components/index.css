@@ -1,9 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    
     font-family: 'lato';
-    
 }
 
 
@@ -47,7 +45,7 @@ header button:active {
 
 #practice{
     font-size: 80px;
-    color:#9b20ff;
+    color:#26C86B;
     text-shadow: 0 2px 3px #242424 ;
     
     
@@ -122,7 +120,7 @@ header button:active {
 
 .Features span{
     font-weight: bold;
-    color:#9b20ff;
+    color:#26C86B;
 }
 
 
@@ -204,14 +202,14 @@ form{
 
 #getintouch input:focus{
     outline: none;
-    border: #9b20ff 1px solid;
-    box-shadow: 0 0 0.3rem #9b20ff;
+    border: #26C86B 1px solid;
+    box-shadow: 0 0 0.3rem #26C86B;
 }
 
 #getintouch textarea:focus{
     outline: none;
-    border: #9b20ff 1px solid;
-    box-shadow: 0 0 0.3rem #9b20ff ;
+    border: #26C86B 1px solid;
+    box-shadow: 0 0 0.3rem #26C86B ;
 }
 
 #Guided_paths{
@@ -222,7 +220,7 @@ form{
 
 .Features h2{
     font-size: 2.5rem;
-    color:#9b20ff;
+    color:#26C86B;
     margin-bottom: 2rem;
 }
 
@@ -265,7 +263,7 @@ form{
 
 #journey h2 , #Guided_paths h2, #Costomize_Quiz h2{
     font-size: 3rem;
-    color:#9b20ff;
+    color:#26C86B;
     margin-bottom: 2rem;
     text-align: center;
 }
@@ -353,13 +351,13 @@ form{
 }
 
 .option_no:hover{
-    background:linear-gradient(#9b20ff);
+    background: linear-gradient(-135deg,#4be38d,#12ee96);
     transform: translateY(-3px);
      border: none;
 }
 
 .option_no:focus{
-    background:linear-gradient(#9b20ff);
+    background: linear-gradient(-135deg,#4be38d,#12ee96);
      border: none;
 }
 
@@ -378,13 +376,13 @@ form{
 }
 
 .option_time:hover{
-    background:linear-gradient(#9b20ff);
+    background: linear-gradient(-135deg,#4be38d,#12ee96);
     transform: translateY(-3px);
     border: none;
 }
 
 .option_time:focus{
-    background:linear-gradient(#9b20ff);
+    background: linear-gradient(-135deg,#4be38d,#12ee96);
      border: none;
 }
 
@@ -401,12 +399,12 @@ form{
 }
 
 .Unlimited-btn:hover{
-    background-color: #9b20ff;
+    background: linear-gradient(-135deg,#4be38d,#12ee96);
     transform: translateY(-3px);
 }
 
 .Unlimited-btn:focus{
-    background-color: #9b20ff;
+    background: linear-gradient(-135deg,#4be38d,#12ee96);
 }
 
 
@@ -427,7 +425,7 @@ img{
     padding: 15px 30px ;
     border-radius: 50px;
     color: white;
-    background: linear-gradient(90deg,#c277ff,#9b20ff);
+    background: linear-gradient(90deg,#c277ff,#26C86B);
     border:none;
     margin: 0 auto;
     margin-top: 2rem;
@@ -445,7 +443,7 @@ img{
 
 #getintouch h2{
     font-size: 2.5rem;
-    color:#9b20ff;
+    color:#26C86B;
     margin-bottom: 2rem;
 }
 
