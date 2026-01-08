@@ -1,0 +1,62 @@
+[
+  { 
+    "id": 1, 
+    "question": "Choose the correct spelling:", 
+    "options": ["Definately", "Definitely", "Definetely", "Definatly"], 
+    "answer": 1 
+  },
+  { 
+    "id": 2, 
+    "question": "What is the synonym of 'Happy'?", 
+    "options": ["Sad", "Angry", "Joyful", "Tired"], 
+    "answer": 2 
+  },
+  { 
+    "id": 3, 
+    "question": "What is the antonym of 'Hot'?", 
+    "options": ["Warm", "Cold", "Cool", "Heat"], 
+    "answer": 1 
+  },
+  { 
+    "id": 4, 
+    "question": "Choose the correct article: ___ apple", 
+    "options": ["A", "An", "The", "No article"], 
+    "answer": 1 
+  },
+  { 
+    "id": 5, 
+    "question": "Which is a noun?", 
+    "options": ["Run", "Beautiful", "Happiness", "Quickly"], 
+    "answer": 2 
+  },
+  { 
+    "id": 6, 
+    "question": "Which is a verb?", 
+    "options": ["Table", "Run", "Blue", "Soft"], 
+    "answer": 1 
+  },
+  { 
+    "id": 7, 
+    "question": "Which is an adjective?", 
+    "options": ["Quick", "Quickly", "Run", "Happily"], 
+    "answer": 0 
+  },
+  { 
+    "id": 8, 
+    "question": "Which is an adverb?", 
+    "options": ["Slow", "Slowly", "Slowness", "Slowest"], 
+    "answer": 1 
+  },
+  { 
+    "id": 9, 
+    "question": "Plural of 'Child' is?", 
+    "options": ["Childs", "Children", "Childes", "Childrens"], 
+    "answer": 1 
+  },
+  { 
+    "id": 10, 
+    "question": "Past tense of 'Go' is?", 
+    "options": ["Goed", "Gone", "Went", "Going"], 
+    "answer": 2 
+  }
+]

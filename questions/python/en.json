@@ -1,5 +1,4 @@
-{
-  "python": [
+[
     { "id": 1, "question": "What is Python?", "options": ["Programming language", "Markup language", "Database", "Operating system"], "answer": "Programming language", "level": "easy" },
     { "id": 2, "question": "Who developed Python?", "options": ["Guido van Rossum", "Dennis Ritchie", "James Gosling", "Bjarne Stroustrup"], "answer": "Guido van Rossum", "level": "easy" },
     { "id": 3, "question": "Which symbol is used for comments?", "options": ["#", "//", "/* */", "<!-- -->"], "answer": "#", "level": "easy" },
@@ -60,4 +59,3 @@
     { "id": 49, "question": "Which value represents no value?", "options": ["None", "null", "0", "false"], "answer": "None", "level": "easy" },
     { "id": 50, "question": "Python is ____ language.", "options": ["Interpreted", "Compiled", "Machine", "Assembly"], "answer": "Interpreted", "level": "easy" }
   ]
-}

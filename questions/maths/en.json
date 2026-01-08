@@ -1,5 +1,4 @@
-{
-  "maths": [
+[
     { "id": 1, "question": "What is the value of 7 × 8?", "options": ["54", "56", "64", "48"], "answer": "56", "level": "easy" },
     { "id": 2, "question": "What is the square root of 81?", "options": ["7", "8", "9", "10"], "answer": "9", "level": "easy" },
     { "id": 3, "question": "What is 15% of 200?", "options": ["25", "30", "35", "40"], "answer": "30", "level": "easy" },
@@ -60,4 +59,4 @@
     { "id": 49, "question": "What is the value of 100 ÷ 25?", "options": ["2", "4", "5", "10"], "answer": "4", "level": "easy" },
     { "id": 50, "question": "What is the next number in series: 2, 4, 6, ?", "options": ["7", "8", "9", "10"], "answer": "8", "level": "easy" }
   ]
-}
+

@@ -1,5 +1,4 @@
-{
-  "english": [
+[
     { "id": 1, "question": "Choose the correct spelling:", "options": ["Definately", "Definitely", "Definetely", "Definatly"], "answer": "Definitely", "level": "easy" },
     { "id": 2, "question": "What is the synonym of 'Happy'?", "options": ["Sad", "Angry", "Joyful", "Tired"], "answer": "Joyful", "level": "easy" },
     { "id": 3, "question": "What is the antonym of 'Hot'?", "options": ["Warm", "Cold", "Cool", "Heat"], "answer": "Cold", "level": "easy" },
@@ -60,4 +59,4 @@
     { "id": 49, "question": "Which sentence shows future tense?", "options": ["I will go home.", "I go home.", "I went home.", "I am home."], "answer": "I will go home.", "level": "easy" },
     { "id": 50, "question": "English has how many vowels?", "options": ["4", "5", "6", "7"], "answer": "5", "level": "easy" }
   ]
-}
+

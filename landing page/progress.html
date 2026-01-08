@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New User Dashboard</title>
+    <link rel="stylesheet" href="./components/progress.css">
+</head>
+<body>
+    <div class="dashboard-wrapper">
+        <main class="dashboard-main">
+            <header class="dashboard-header">
+                <h1>Your Progress</h1>
+                <p>Track your learning journey and achievements</p>
+            </header>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="icon-box green">📈</div>
+                    <div><h3>0</h3><p>Total Quizzes</p></div>
+                </div>
+                <div class="stat-card">
+                    <div class="icon-box purple">🎯</div>
+                    <div><h3>0%</h3><p>Avg. Accuracy</p></div>
+                </div>
+                <div class="stat-card">
+                    <div class="icon-box orange">🔥</div>
+                    <div><h3>0 days</h3><p>Current Streak</p></div>
+                </div>
+                <div class="stat-card">
+                    <div class="icon-box blue">🕒</div>
+                    <div><h3>0h 0m</h3><p>Total Time</p></div>
+                </div>
+            </div>
+
+            <section class="subject-section">
+
+                <div class="section-header">
+                    <h2>Subject Progress</h2>
+                    <span class="view-all">View All ></span>
+                </div>
+
+                <div class="subject-list">
+
+                    <div class="subject-item">
+                        <div class="subject-meta">
+                            <span>HTML</span>
+                            <span>2 quizzes / 20%</span>
+                        </div>
+                        <div class="bar-track"><div class="bar-fill" style="width: 20%"></div></div>
+                    </div>
+                    
+                    <div class="subject-item">
+                        <div class="subject-meta">
+                            <span>CSS</span>
+                            <span>2 quizzes / 10%</span>
+                        </div>
+                        <div class="bar-track"><div class="bar-fill" style="width: 10%"></div></div>
+                    </div>
+                    <div class="subject-item">
+                        <div class="subject-meta">
+                            <span>JavaScript</span>
+                            <span>3 quizzes / 60%</span>
+                        </div>
+                        <div class="bar-track"><div class="bar-fill" style="width: 60%"></div>
+
+                        </div>
+                    </div>
+
+                        <div class="subject-item">
+                        <div class="subject-meta">
+                            <span>Python</span>
+                            <span>2 quizzes / 50%</span>
+                        </div>
+                        <div class="bar-track"><div class="bar-fill" style="width: 50%"></div></div>
+                    </div>
+
+                    <div class="subject-item">
+                        <div class="subject-meta">
+                            <span>English</span>
+                            <span>6 quizzes / 90%</span>
+                        </div>
+                        <div class="bar-track"><div class="bar-fill" style="width: 90%"></div></div>
+                    </div>
+
+                    <div class="subject-item">
+                        <div class="subject-meta">
+                            <span>Mathematics</span>
+                            <span>1 quizzes / 40%</span>
+                        </div>
+                        <div class="bar-track"><div class="bar-fill" style="width: 40%"></div></div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <aside class="dashboard-sidebar">
+            <div class="section-header"><h2>Achievements</h2></div>
+            <div class="achievement-list">
+                <div class="ach-card locked">
+                    <span class="ach-icon">🏆</span>
+                    <div><h4>Perfect Score</h4><p>Score 100% on any quiz</p></div>
+                </div>
+                <div class="ach-card locked">
+                    <span class="ach-icon">🔥</span>
+                    <div><h4>Week Warrior</h4><p>7-day learning streak</p></div>
+                </div>
+                <div class="ach-card locked">
+                    <span class="ach-icon">⚡</span>
+                    <div><h4>Speed Demon</h4><p>Complete quiz in under 2 min</p></div>
+                </div>
+            </div>
+        </aside>
+    </div>
+    <script src="./components/progress.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+[
+  { 
+    "id": 1, 
+    "question": "What is the value of 7 × 8?", 
+    "options": ["54", "56", "64", "48"], 
+    "answer": 1 
+  },
+  { 
+    "id": 2, 
+    "question": "What is the square root of 81?", 
+    "options": ["7", "8", "9", "10"], 
+    "answer": 2 
+  },
+  { 
+    "id": 3, 
+    "question": "What is 15% of 200?", 
+    "options": ["25", "30", "35", "40"], 
+    "answer": 1 
+  },
+  { 
+    "id": 4, 
+    "question": "What is the value of 12 ÷ 4?", 
+    "options": ["2", "3", "4", "6"], 
+    "answer": 1 
+  },
+  { 
+    "id": 5, 
+    "question": "What is the value of 5²?", 
+    "options": ["10", "20", "25", "30"], 
+    "answer": 2 
+  },
+  { 
+    "id": 6, 
+    "question": "What is the LCM of 4 and 6?", 
+    "options": ["6", "12", "24", "36"], 
+    "answer": 1 
+  },
+  { 
+    "id": 7, 
+    "question": "What is the HCF of 12 and 18?", 
+    "options": ["2", "3", "6", "12"], 
+    "answer": 2 
+  },
+  { 
+    "id": 8, 
+    "question": "What is 3³?", 
+    "options": ["6", "9", "27", "81"], 
+    "answer": 2 
+  },
+  { 
+    "id": 9, 
+    "question": "What is the perimeter of a square of side 4 cm?", 
+    "options": ["8 cm", "12 cm", "16 cm", "20 cm"], 
+    "answer": 2 
+  },
+  { 
+    "id": 10, 
+    "question": "What is the area of a rectangle with length 5 and width 4?", 
+    "options": ["9", "20", "25", "40"], 
+    "answer": 1 
+  }
+]

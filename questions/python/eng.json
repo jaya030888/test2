@@ -1,0 +1,62 @@
+[
+  { 
+    "id": 1, 
+    "question": "What is Python?", 
+    "options": ["Programming language", "Markup language", "Database", "Operating system"], 
+    "answer": 0 
+  },
+  { 
+    "id": 2, 
+    "question": "Who developed Python?", 
+    "options": ["Guido van Rossum", "Dennis Ritchie", "James Gosling", "Bjarne Stroustrup"], 
+    "answer": 0 
+  },
+  { 
+    "id": 3, 
+    "question": "Which symbol is used for comments?", 
+    "options": ["#", "//", "/* */", ""], 
+    "answer": 0 
+  },
+  { 
+    "id": 4, 
+    "question": "Which keyword is used to define a function?", 
+    "options": ["def", "function", "func", "define"], 
+    "answer": 0 
+  },
+  { 
+    "id": 5, 
+    "question": "Which keyword is used to create a class?", 
+    "options": ["class", "object", "struct", "define"], 
+    "answer": 0 
+  },
+  { 
+    "id": 6, 
+    "question": "Which data type is immutable?", 
+    "options": ["Tuple", "List", "Set", "Dictionary"], 
+    "answer": 0 
+  },
+  { 
+    "id": 7, 
+    "question": "Which function prints output?", 
+    "options": ["print()", "echo()", "output()", "show()"], 
+    "answer": 0 
+  },
+  { 
+    "id": 8, 
+    "question": "Which keyword is used for condition?", 
+    "options": ["if", "when", "check", "case"], 
+    "answer": 0 
+  },
+  { 
+    "id": 9, 
+    "question": "Which keyword is used for loop?", 
+    "options": ["for", "loop", "repeat", "iterate"], 
+    "answer": 0 
+  },
+  { 
+    "id": 10, 
+    "question": "Which loop runs until condition is false?", 
+    "options": ["while", "for", "do-while", "repeat"], 
+    "answer": 0 
+  }
+]

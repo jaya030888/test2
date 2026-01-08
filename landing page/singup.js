@@ -17,6 +17,6 @@ function saveToLocalStorage(){
 
   localStorage.setItem("user", user);
   localStorage.setItem("password", password);
-  alert(``)
+//   alert(``)
 
 }
