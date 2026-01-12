@@ -12,93 +12,144 @@
 
 <style>
 
-        *{
-       font-family: "Raleway", sans-serif;
-     }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+           font-family: "Raleway", sans-serif;
+
+}
 
 body{
-        background-color: #DEC4FF;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa; 
+}
 
-    .main{
-        margin: 75px auto;
-        text-align: center;
-        background-color:#F9F5FF;
-        height: 80vh;
-        width: 500px;
-        border-radius: 10px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-    }
+.signup{
+    background-color: white;
+    width: 100%;
+    height: 80vh;
+    max-width: 400px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.head{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.head h1{
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.input-box{ 
+    background-color: #f3f1f1;
+    border-radius: 12px;
+    padding: 12px 20px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
 
 
-    .heading{
-        color: #b617ff;
-    }
+input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+}
 
-    .input{
-        border-radius: 10px;
-        border:none;
-        border: rgb(230, 230, 230) 1px solid;
-        padding: 5px 15px;
-        width: 300px;
-        height: 30px;
-        margin: 10px;
-    } 
+::placeholder{
+    color: #888;
+}
 
-    .input:focus{
-        border: none;
-        border: 1px solid purple;
-        box-shadow: 0 0 5px purple;
-    }
+.form p{
+    text-align: right;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
 
-    .button{
-        border-radius: 10px;
-        background-color: rgb(228, 141, 255);
-        width: 310px;
-        height: 50px;
-        border: 1px solid purple;
-        margin-top: 20px;
-         
-    }
+button{
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(55, 208, 55);
 
-    .button:hover{
-       background: linear-gradient(rgb(255, 159, 255),purple);
-    }
+}
 
-    img{
-        padding-inline-end: 0;
-        margin: 0px;
-        border-radius: 1px;
-      
-    }
-    .image{
-        border-radius: 10px;
-        height: 83vh;
-        width: 600px;
-    }
-    
+
+
+.foot{
+    margin-top: 20px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.foot p{
+    font-size: 15px;
+    color:rgb(129, 128, 128);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.foot span{
+    color: #333;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0 3px;
+}
 </style>
-<body>
-        <div class="main">
-            <h1 class="heading">Welcome Back to QuizCore</h1>
-    
-            <input type="email" placeholder="Enter you email or mobile no." class="input" id="userInput">
+    <section class="signup">
 
-            <input type="password" placeholder="Enter password" class="input" id="password">
-            
+        <header class="head">
+            <h1>Welcome To EduSpark</h1>
+        </header>
 
-            <button class="button" onclick="saveToLocalStorage()"><b>continue</b></button>
-    
-            <h4>or continue with</h4>
-            <button class="button"><img src="./google-symbol.png" alt="Google" height="16px" >Google</button>
-            <button class="button"><img src="./apple.png" alt="apple" height="16px">Apple</button>
-    
-    
-    </div>
+        <form class="form">
+
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+            </div>
+
+            <div class="input-box">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+            </div>
+
+            <div class="input-box">
+                <input type="password" placeholder="Password">
+            </div>
+
+            <p>Forgot Password</p>
+            <button>Create Account</button>
+
+            <footer class="foot">
+                <p>By continuing, you agree to our <span>Terms of Service</span>and<span>Privacy Policy</span></p>
+            </footer>
+
+
+        </form>
+
+    </section>
     <script src="./singup.js"></script>
 </body>
 </html>
