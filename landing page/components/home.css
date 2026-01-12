@@ -57,7 +57,7 @@ body {
 }
 
 .nav-item.active {
-  background: #a72ecc;
+  background: #2ecc46;
   color: #ffffff;
 }
 
@@ -173,7 +173,7 @@ body {
 }
 
 .quick-quiz-card {
-  background: #af2ecc;
+  background: #2ecc46;
   color: #ffffff;
   padding: 25px;
   border-radius: 15px;
@@ -184,7 +184,7 @@ body {
 .start-btn {
   width: 100%;
   background: #ffffff;
-  color: #9f2ecc;
+  color: #2ecc71;
   border: none;
   padding: 12px;
   border-radius: 10px;
@@ -194,7 +194,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 10px;
-}
+} 
 
 /* Leaderboard Section */
 .lb-header {

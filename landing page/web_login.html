@@ -77,20 +77,27 @@ body{
 </style>
 <body>
         <div class="main">
-            <h1 class="heading">Welcome Back to QuizCore</h1>
+            <h1 class="heading">Welcome Back!</h1>
+            <p>Log in to continue your learning journey</p>
     
             <input type="email" placeholder="Enter you email or mobile no." class="input">
 
             <input type="password" placeholder="Enter password" class="input">
             
 
-            <button class="button"><b>continue</b></button>
+            <button class="button"><b>Log In </b></button>
+            <p>Don't have an account? <button onclick="signup()">Sign up</button></p>
+            
     
           
     
     </div>
 
     <script>
+
+        let signup = function(){
+            window.location.href="./signup.html"
+        }
 
     let buttons = document.querySelectorAll(".button");
 

@@ -410,12 +410,12 @@ form{
 }
 
 .Unlimited-btn:hover{
-    background: linear-gradient(-135deg,#4be38d,#12ee96);
+    background-color: #F97415;
     transform: translateY(-3px);
 }
 
 .Unlimited-btn:focus{
-    background: linear-gradient(-135deg,#4be38d,#12ee96);
+    background-color: #F97415;
 }
 
 
