@@ -150,17 +150,14 @@ button {
 
     <script>
 
-        let signup = function(){
-            window.location.href="./signup.html"
-        }
+     
+    let btn = document.querySelector("button");
 
-    let buttons = document.querySelectorAll(".button");
 
-buttons.forEach(function(button) {
-    button.addEventListener("click", function() {
+    btn.addEventListener("click", function() {
         window.location.href = "./home.html";
     });
-});
+
 
  
 document.addEventListener("keydown", function (event) {

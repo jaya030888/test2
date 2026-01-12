@@ -140,7 +140,7 @@ button{
             </div>
 
             <p>Forgot Password</p>
-            <button>Create Account</button>
+            <button id="btn">Create Account</button>
 
             <footer class="foot">
                 <p>By continuing, you agree to our <span>Terms of Service</span>and<span>Privacy Policy</span></p>
@@ -150,6 +150,38 @@ button{
         </form>
 
     </section>
-    <script src="./singup.js"></script>
+    <script>
+
+    let btn = document.getElementById("btn")
+
+    btn.addEventListener("click",function(){
+        console.log("hello")
+        window.location.href="./home.html"
+    })
+
+
+        function saveToLocalStorage(){
+
+  const user = document.getElementById("userInput").value;
+
+  const password = document.getElementById("password").value;
+
+
+  // Simple logic
+
+  if (user === "" || password === ""){
+    alert("Please enter your password");
+    return;
+  }
+
+
+  //  local storage
+
+  localStorage.setItem("user", user);
+  localStorage.setItem("password", password);
+//   alert(``)
+
+}
+    </script>
 </body>
 </html>
