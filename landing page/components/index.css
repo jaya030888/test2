@@ -100,25 +100,25 @@ transform: translateY(1px) scale(0.95);
 
 
 .landing button{
-      width: fit-content;
-      padding: 35px 60px ;
-      border-radius: 50px;
-      color: white;
+    width: fit-content;
+    padding: 35px 60px ;
+    border-radius: 50px;
+    color: white;
     background: linear-gradient(90deg,#77ff82,#26C86B);
-      border:none;
-      margin: 0 auto;
-      font-size: 30px;
-      font-weight: 600;
-      box-shadow: 0 2px 5px #242424;
-      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    border:none;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 600;
+    box-shadow: 0 2px 5px #242424;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.landing button:hover {
+.landing button:hover{
   transform: translateY(-2px) scale(1.03);
   box-shadow: 0 20px 40px rgba(0,0,0,0.3);
 }
 
-.landing button:active {
+.landing button:active{
   transform: translateY(-2px) scale(0.97);
 }
 
@@ -340,6 +340,11 @@ form{
 .block p{
     font-size: 1.2rem;
    
+}
+
+.block img{
+    width: 50px;
+    height: 50px;
 }
 
 .options{
