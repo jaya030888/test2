@@ -1,18 +1,20 @@
-/* 1. General Page Setup */
 body {
     background-color: #f8fafc;
     font-family: 'Inter', sans-serif;
     margin: 0;
-    padding: 20px;
+    padding: 0;
     letter-spacing: 0.70px;
 }
 
 .dashboard-wrapper {
     display: grid;
-    grid-template-columns: 1fr 350px; /* Main content takes rest, sidebar is 350px */
+    grid-template-columns: 1fr 350px;
+    /* Main content takes rest, sidebar is 350px */
     gap: 25px;
     max-width: 1400px;
     margin: auto;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 /* 2. Top Stats Cards */
@@ -29,7 +31,7 @@ body {
     border-radius: 15px;
     display: flex;
     align-items: center;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 .icon-box {
@@ -44,13 +46,32 @@ body {
 }
 
 /* Colors from Video */
-.green { background: #e6f7ef; }
-.purple { background: #f0eeff; }
-.orange { background: #fff4e6; }
-.blue { background: #e6f0ff; }
+.green {
+    background: #e6f7ef;
+}
 
-.stat-card h3 { margin: 0; font-size: 20px; }
-.stat-card p { margin: 0; color: #64748b; font-size: 14px; }
+.purple {
+    background: #f0eeff;
+}
+
+.orange {
+    background: #fff4e6;
+}
+
+.blue {
+    background: #e6f0ff;
+}
+
+.stat-card h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.stat-card p {
+    margin: 0;
+    color: #64748b;
+    font-size: 14px;
+}
 
 /* 3. Subject Progress Section */
 .subject-section {
@@ -86,11 +107,19 @@ body {
 
 .bar-fill {
     height: 100%;
-    background: #29db6a; /* Green Progress */
+    background: #29db6a;
+    /* Green Progress */
     border-radius: 10px;
 }
 
 /* 4. Achievement Sidebar (Right Side) */
+.dashboard-sidebar {
+    position: sticky;
+    top: 100px;
+    /* Adjust based on header height */
+    align-self: start;
+}
+
 .ach-card {
     background: white;
     padding: 15px;
@@ -111,5 +140,13 @@ body {
     margin-right: 15px;
 }
 
-.ach-card h4 { margin: 0; font-size: 15px; }
-.ach-card p { margin: 0; font-size: 12px; color: #64748b; }
+.ach-card h4 {
+    margin: 0;
+    font-size: 15px;
+}
+
+.ach-card p {
+    margin: 0;
+    font-size: 12px;
+    color: #64748b;
+}

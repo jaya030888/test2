@@ -1,21 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New User Dashboard</title>
     <link rel="stylesheet" href="./components/progress.css">
+    <link rel="stylesheet" href="./components/leaderboard.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
-<style>
-        *{
-       font-family: "Raleway", sans-serif;
-     }
-</style>
+    <style>
+        * {
+            font-family: "Raleway", sans-serif;
+        }
+    </style>
 </head>
+
 <body>
+
+    <header class="leaderboard-header">
+
+        <div class="left-section">
+            <div class="title-wrap" style="cursor: pointer;" onclick="window.location.href='./home.html'">
+                <div class="icon">✨</div>
+                <div class="text" style="margin-top: 0;">
+                    <h2 style="color: #22c55e;">EduSpark</h2>
+                </div>
+            </div>
+        </div>
+
+        <nav class="header-nav">
+            <button class="nav-link" onclick="window.location.href='./home.html'">Dashboard</button>
+            <button class="nav-link" onclick="window.location.href='./leaderboard.html'">Leaderboard</button>
+            <button class="nav-link active">Progress</button>
+            <button class="nav-link" onclick="window.location.href='./setting.html'">Settings</button>
+        </nav>
+
+        <div class="right">
+            <div class="coins">
+                💰 <span>2,450</span>
+            </div>
+            <div class="profile">👤</div>
+        </div>
+
+    </header>
+
     <div class="dashboard-wrapper">
         <main class="dashboard-main">
             <header class="dashboard-header">
@@ -26,19 +58,31 @@
             <div class="stats-grid">
                 <div class="stat-card">
                     <div class="icon-box green">📈</div>
-                    <div><h3>0</h3><p>Total Quizzes</p></div>
+                    <div>
+                        <h3>0</h3>
+                        <p>Total Quizzes</p>
+                    </div>
                 </div>
                 <div class="stat-card">
                     <div class="icon-box purple">🎯</div>
-                    <div><h3>0%</h3><p>Avg. Accuracy</p></div>
+                    <div>
+                        <h3>0%</h3>
+                        <p>Avg. Accuracy</p>
+                    </div>
                 </div>
                 <div class="stat-card">
                     <div class="icon-box orange">🔥</div>
-                    <div><h3>0 days</h3><p>Current Streak</p></div>
+                    <div>
+                        <h3>0 days</h3>
+                        <p>Current Streak</p>
+                    </div>
                 </div>
                 <div class="stat-card">
                     <div class="icon-box blue">🕒</div>
-                    <div><h3>0h 0m</h3><p>Total Time</p></div>
+                    <div>
+                        <h3>0h 0m</h3>
+                        <p>Total Time</p>
+                    </div>
                 </div>
             </div>
 
@@ -56,32 +100,39 @@
                             <span>HTML</span>
                             <span>2 quizzes / 20%</span>
                         </div>
-                        <div class="bar-track"><div class="bar-fill" style="width: 20%"></div></div>
+                        <div class="bar-track">
+                            <div class="bar-fill" style="width: 20%"></div>
+                        </div>
                     </div>
-                    
+
                     <div class="subject-item">
                         <div class="subject-meta">
                             <span>CSS</span>
                             <span>2 quizzes / 10%</span>
                         </div>
-                        <div class="bar-track"><div class="bar-fill" style="width: 10%"></div></div>
+                        <div class="bar-track">
+                            <div class="bar-fill" style="width: 10%"></div>
+                        </div>
                     </div>
                     <div class="subject-item">
                         <div class="subject-meta">
                             <span>JavaScript</span>
                             <span>3 quizzes / 60%</span>
                         </div>
-                        <div class="bar-track"><div class="bar-fill" style="width: 60%"></div>
+                        <div class="bar-track">
+                            <div class="bar-fill" style="width: 60%"></div>
 
                         </div>
                     </div>
 
-                        <div class="subject-item">
+                    <div class="subject-item">
                         <div class="subject-meta">
                             <span>Python</span>
                             <span>2 quizzes / 50%</span>
                         </div>
-                        <div class="bar-track"><div class="bar-fill" style="width: 50%"></div></div>
+                        <div class="bar-track">
+                            <div class="bar-fill" style="width: 50%"></div>
+                        </div>
                     </div>
 
                     <div class="subject-item">
@@ -89,7 +140,9 @@
                             <span>English</span>
                             <span>6 quizzes / 90%</span>
                         </div>
-                        <div class="bar-track"><div class="bar-fill" style="width: 90%"></div></div>
+                        <div class="bar-track">
+                            <div class="bar-fill" style="width: 90%"></div>
+                        </div>
                     </div>
 
                     <div class="subject-item">
@@ -97,48 +150,62 @@
                             <span>Mathematics</span>
                             <span>1 quizzes / 40%</span>
                         </div>
-                        <div class="bar-track"><div class="bar-fill" style="width: 40%"></div></div>
-                    </div>
+                        <div class="bar-track">
+                            <div class="bar-fill" style="width: 40%"></div>
+                        </div>
                     </div>
                 </div>
-            </section>
-        </main>
+    </div>
+    </section>
+    </main>
 
-        <aside class="dashboard-sidebar">
-            <div class="section-header"><h2>Achievements</h2></div>
-            <div class="achievement-list">
-                <div class="ach-card locked">
-                    <span class="ach-icon">🏆</span>
-                    <div><h4>Perfect Score</h4><p>Score 100% on any quiz</p></div>
-                </div>
-                <div class="ach-card locked">
-                    <span class="ach-icon">🔥</span>
-                    <div><h4>Week Warrior</h4><p>7-day learning streak</p></div>
-                </div>
-                <div class="ach-card locked">
-                    <span class="ach-icon">⚡</span>
-                    <div><h4>Speed Demon</h4><p>Complete quiz in under 2 min</p></div>
+    <aside class="dashboard-sidebar">
+        <div class="section-header">
+            <h2>Achievements</h2>
+        </div>
+        <div class="achievement-list">
+            <div class="ach-card locked">
+                <span class="ach-icon">🏆</span>
+                <div>
+                    <h4>Perfect Score</h4>
+                    <p>Score 100% on any quiz</p>
                 </div>
             </div>
-        </aside>
+            <div class="ach-card locked">
+                <span class="ach-icon">🔥</span>
+                <div>
+                    <h4>Week Warrior</h4>
+                    <p>7-day learning streak</p>
+                </div>
+            </div>
+            <div class="ach-card locked">
+                <span class="ach-icon">⚡</span>
+                <div>
+                    <h4>Speed Demon</h4>
+                    <p>Complete quiz in under 2 min</p>
+                </div>
+            </div>
+        </div>
+    </aside>
     </div>
     <script src="./components/progress.js"></script>
     <script>
-document.addEventListener("keydown", function (event) {
-  if (event.key === "Backspace") {
-    const tag = event.target.tagName.toLowerCase();
-    const isInput =
-      tag === "input" ||
-      tag === "textarea" ||
-      event.target.isContentEditable;
+        document.addEventListener("keydown", function (event) {
+            if (event.key === "Backspace") {
+                const tag = event.target.tagName.toLowerCase();
+                const isInput =
+                    tag === "input" ||
+                    tag === "textarea" ||
+                    event.target.isContentEditable;
 
-    if (!isInput) {
-      event.preventDefault(); // stop browser default
-      window.history.back();  // go back
-    }
-  }
-});
-</script>
+                if (!isInput) {
+                    event.preventDefault(); // stop browser default
+                    window.history.back();  // go back
+                }
+            }
+        });
+    </script>
 
 </body>
+
 </html>
