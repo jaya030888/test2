@@ -1,60 +1,60 @@
-let opendashboard = function(){
-     
-    window.location.href="./home.html"
+let opendashboard = function () {
+
+    window.location.href = "./home.html"
 }
 
 
 
-let openleaderboard = function(){
-    
-        window.location.href="./leaderboard.html"
+let openleaderboard = function () {
+
+    window.location.href = "./leaderboard.html"
 }
 
 
-let openprogress = function(){
+let openprogress = function () {
 
-    window.location.href="./progress.html"
+    window.location.href = "./progress.html"
 }
 
-let opensetting = function(){
-     
-    window.location.href="./setting.html"
-}
+let opensetting = function () {
 
-
-let start = function(){
-
-     window.location.href = "./hello.html";
+    window.location.href = "./setting.html"
 }
 
 
-let html = function(){
+let start = function () {
+
+    window.location.href = "./hello.html";
+}
+
+
+let html = function () {
 
     window.location.href = "./html_qs.html";
 }
 
-let css = function(){
+let css = function () {
 
-   window.location.href = "./css_qs.html";
+    window.location.href = "./css_qs.html";
 }
 
-let js = function(){
+let js = function () {
 
-        window.location.href = "./js_qs.html";
+    window.location.href = "./js_qs.html";
 }
 
-let python = function(){
+let python = function () {
 
-        window.location.href = "./python_qs.html";
+    window.location.href = "./python_qs.html";
 }
 
-let maths = function(){
+let maths = function () {
 
-        window.location.href = "./maths_qs.html";
+    window.location.href = "./maths_qs.html";
 }
 
-let english = function(){
+let english = function () {
 
-     window.location.href = "./english_qs.html";
+    window.location.href = "./english_qs.html";
 }
 

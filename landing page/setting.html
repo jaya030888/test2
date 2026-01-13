@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduSpark Settings</title>
+    <link rel="stylesheet" href="./components/leaderboard.css"> <!-- Reusing header styles -->
+    <link rel="stylesheet" href="./components/setting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            font-family: "Raleway", sans-serif;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header class="leaderboard-header">
+
+        <div class="left-section">
+            <div class="title-wrap" style="cursor: pointer;" onclick="backtodashboard()">
+                <div class="icon">✨</div>
+                <div class="text" style="margin-top: 0;">
+                    <h2 style="color: #22c55e;">EduSpark</h2>
+                </div>
+            </div>
+        </div>
+
+        <nav class="header-nav">
+            <button class="nav-link" onclick="backtodashboard()">Dashboard</button>
+            <button class="nav-link" onclick="window.location.href='./leaderboard.html'">Leaderboard</button>
+            <button class="nav-link" onclick="window.location.href='./progress.html'">Progress</button>
+            <button class="nav-link active">Settings</button>
+        </nav>
+
+        <div class="right">
+            <div class="coins">
+                💰 <span>2,450</span>
+            </div>
+            <div class="profile">👤</div>
+        </div>
+
+    </header>
+
+    <main class="settings-container">
+        <div class="settings-sidebar">
+            <button class="setting-tab active" onclick="showSection('profile')">Profile</button>
+            <button class="setting-tab" onclick="showSection('account')">Account</button>
+            <button class="setting-tab" onclick="showSection('notifications')">Notifications</button>
+            <button class="setting-tab danger" onclick="logout()">Log Out</button>
+        </div>
+
+        <section class="settings-content" id="profile-section">
+            <h2>Edit Profile</h2>
+            <div class="form-group">
+                <label>Profile Picture</label>
+                <div class="profile-upload">
+                    <div class="avatar-preview">👤</div>
+                    <button class="upload-btn">Change Photo</button>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" value="User 1" class="form-input">
+            </div>
+            <div class="form-group">
+                <label>Bio</label>
+                <textarea class="form-input" rows="4">Learning web development!</textarea>
+            </div>
+            <button class="save-btn">Save Changes</button>
+        </section>
+
+        <section class="settings-content hidden" id="account-section">
+            <h2>Account Settings</h2>
+            <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" value="user@example.com" class="form-input">
+            </div>
+            <div class="form-group">
+                <label>Change Password</label>
+                <input type="password" placeholder="Current Password" class="form-input">
+                <input type="password" placeholder="New Password" class="form-input mt-2">
+            </div>
+            <button class="save-btn">Update Account</button>
+        </section>
+
+        <section class="settings-content hidden" id="notifications-section">
+            <h2>Notifications</h2>
+            <div class="toggle-group">
+                <div class="toggle-info">
+                    <h4>Email Notifications</h4>
+                    <p>Receive weekly progress reports</p>
+                </div>
+                <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="toggle-group">
+                <div class="toggle-info">
+                    <h4>Quiz Reminders</h4>
+                    <p>Get notified to keep your streak</p>
+                </div>
+                <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        function backtodashboard() {
+            window.location.href = "./home.html";
+        }
+
+        function showSection(sectionId) {
+            // Hide all sections
+            document.querySelectorAll('.settings-content').forEach(el => el.classList.add('hidden'));
+            // Remove active class from tabs
+            document.querySelectorAll('.setting-tab').forEach(el => el.classList.remove('active'));
+
+            // Show target section and activate tab
+            document.getElementById(sectionId + '-section').classList.remove('hidden');
+            event.target.classList.add('active');
+        }
+
+        function logout() {
+            alert('Logging out...');
+            window.location.href = "./index.html";
+        }
+
+        document.addEventListener("keydown", function (event) {
+            if (event.key === "Backspace") {
+                const tag = event.target.tagName.toLowerCase();
+                const isInput =
+                    tag === "input" ||
+                    tag === "textarea" ||
+                    event.target.isContentEditable;
+
+                if (!isInput) {
+                    event.preventDefault(); // stop browser default
+                    window.history.back();  // go back
+                }
+            }
+        });
+    </script>
+
+</body>
+
+</html>

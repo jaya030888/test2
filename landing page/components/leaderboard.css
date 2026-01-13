@@ -14,12 +14,43 @@ body {
 .leaderboard-header {
   width: 100%;
   margin: auto;
-  background: #f6f1f1;
-  padding: 18px 28px;
+  background: #ffffff;
+  padding: 15px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid #6a4949
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.header-nav {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-link {
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #6b7280;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+
+.nav-link:hover {
+  color: #2ecc71;
+  background: #f0fdf4;
+}
+
+.nav-link.active {
+  color: #2ecc71;
+  background: #f0fdf4;
 }
 
 .left-section {
@@ -121,7 +152,7 @@ body {
 }
 
 
-.div-box1 p{
+.div-box1 p {
   font-size: 20px;
 }
 
@@ -152,7 +183,7 @@ body {
 }
 
 
- 
+
 
 
 .hello {
@@ -202,14 +233,14 @@ body {
 
 
 
-.div-class{
+.div-class {
   margin: 40px 0;
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
 }
 
-.filter-box{
+.filter-box {
   background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(10px);
   padding: 18px 22px;
@@ -235,7 +266,7 @@ body {
   color: #21a82a;
 }
 
-.filter-box select{
+.filter-box select {
   height: 44px;
   border-radius: 12px;
   padding: 0 14px;
@@ -249,11 +280,11 @@ body {
   transition: all 0.3s ease;
 }
 
-.filter-box select:hover{
+.filter-box select:hover {
   background: #eafee9;
 }
 
-.filter-box select:focus{
+.filter-box select:focus {
   outline: none;
   border-color: #64ed3a;
   box-shadow: 0 0 0 3px rgba(88, 237, 58, 0.25);
@@ -271,7 +302,7 @@ body {
 
 }
 
-.main-div{
+.main-div {
   display: flex;
 
 }
@@ -340,7 +371,7 @@ body {
 }
 
 
-.Ranker{
+.Ranker {
   /* max-width: 900px; */
   margin: auto;
   height: 100vh;
@@ -358,7 +389,7 @@ body {
   margin-bottom: 30px;
 }
 
-.Ranker-head li{
+.Ranker-head li {
   font-size: 15px;
   font-weight: 700;
   color: #6d806b;
@@ -367,11 +398,11 @@ body {
   padding-bottom: 6px;
 }
 
-.Ranker-head li.active{
+.Ranker-head li.active {
   color: #5fe03c;
 }
 
-.Ranker-head li.active::after{
+.Ranker-head li.active::after {
   content: "";
   position: absolute;
   left: 0;
@@ -383,7 +414,7 @@ body {
 }
 
 
-.info{
+.info {
   /* width: 1000px; */
   display: flex;
   align-items: center;
@@ -402,10 +433,10 @@ body {
 
 }
 
-.info:hover{
+.info:hover {
   transform: translateY(-6px);
   box-shadow: 0 18px 45px rgba(58, 237, 67, 0.28);
-}  
+}
 
 .rank {
   font-size: 18px;
@@ -560,7 +591,7 @@ body {
 
 
 
-@media (min-width: 480px) and (max-width: 1024px){
+@media (min-width: 480px) and (max-width: 1024px) {
 
 
   .div2 {
@@ -570,67 +601,69 @@ body {
 
   .div-box1 {
     padding: 22px 16px;
-  
-  
+
+
   }
 
 
   .hi button {
     height: 50px;
     width: 100px;
-  
-  
+
+
   }
 
-  .div-class{
+  .div-class {
     flex-direction: column;
   }
-  
+
   .Leaderboard {
     height: 100%;
     text-align: start;
   }
-  
-  
+
+
   .Leaderboard h2 {
     font-size: 1.7rem;
   }
-  
+
   .main-div {
     flex-direction: column;
     align-items: center;
-  
-  
+
+
   }
-  
+
   .card,
   .card1,
   .card2 {
     width: 100%;
     max-width: 300px;
-  
+
   }
-  
+
   .bolo {
     flex-direction: column;
     gap: 10px;
     text-align: center;
   }
-  
-  
+
+
   .hello {
     max-width: 100%;
   }
-  
+
   .Ranker-head ul {
     flex-direction: column;
     gap: 6px;
   }
-  .info{
+
+  .info {
     padding: 14px 18px;
     gap: 16px;
   }
-  .info-pts h1{
+
+  .info-pts h1 {
     font-size: 16px;
   }
 
@@ -640,6 +673,6 @@ body {
     text-align: center;
   }
 
-  
-  
+
+
 }

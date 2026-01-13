@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./components/leaderboard.css">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
-<style>
-        *{
-       font-family: "Raleway", sans-serif;
-     }
-</style>
+    <style>
+        * {
+            font-family: "Raleway", sans-serif;
+        }
+    </style>
 
 </head>
 
@@ -23,19 +24,20 @@
     <header class="leaderboard-header">
 
         <div class="left-section">
-
-            <button class="back-btn" onclick="backtodashboard()">←</button>
-
-            <div class="title-wrap">
-                <div class="icon">🏆</div>
-
-                <div class="text"> 
-                    <h2>Leaderboard</h2><br>
-                    <p>See where you stand</p>
+            <div class="title-wrap" style="cursor: pointer;" onclick="backtodashboard()">
+                <div class="icon">✨</div>
+                <div class="text" style="margin-top: 0;">
+                    <h2 style="color: #22c55e;">EduSpark</h2>
                 </div>
             </div>
         </div>
 
+        <nav class="header-nav">
+            <button class="nav-link" onclick="backtodashboard()">Dashboard</button>
+            <button class="nav-link active">Leaderboard</button>
+            <button class="nav-link" onclick="window.location.href='./progress.html'">Progress</button>
+            <button class="nav-link" onclick="window.location.href='./setting.html'">Settings</button>
+        </nav>
 
         <div class="right">
             <div class="coins">
@@ -74,7 +76,8 @@
         <div class="div-box1">
 
             <div class="my-rank">
-                <img src="./pictures/ChatGPT_Image_Dec_25__2025__04_55_12_PM-removebg-preview.png" style="width: 100px;">
+                <img src="./pictures/ChatGPT_Image_Dec_25__2025__04_55_12_PM-removebg-preview.png"
+                    style="width: 100px;">
             </div>
             <p>Weekly Status</p>
             <p>+12</p>
@@ -84,8 +87,8 @@
 
     <div class="hello">
 
-      <button class="tab active">Weekly</button>
-      <button class="tab">Monthly</button>
+        <button class="tab active">Weekly</button>
+        <button class="tab">Monthly</button>
     </div>
 
 
@@ -119,7 +122,7 @@
                 <option>Python</option>
             </select>
         </div>
-    </div>    
+    </div>
 
     <section class="Leaderboard">
         <h2>🏆 Top Performers </h2>
@@ -174,7 +177,7 @@
 
     </section>
 
-   <section class="Ranker">
+    <section class="Ranker">
 
         <div class="Ranker-head">
             <ul>
@@ -182,7 +185,7 @@
                 <li>Rank 1 - 10</li>
             </ul>
         </div>
-        
+
 
         <div class="info">
 
@@ -194,13 +197,13 @@
             </div>
 
             <div class="info-pts">
-              <h1>10,5264</h1>
-              <p>pts</p>
+                <h1>105,264</h1>
+                <p>pts</p>
             </div>
         </div>
 
 
-        
+
         <div class="info">
             <div class="rank">5</div>
             <div class="Image01">👩</div>
@@ -209,7 +212,7 @@
                 <p>Pro</p>
             </div>
             <div class="info-pts">
-                <h1>10,5264</h1>
+                <h1>105,264</h1>
                 <p>pts</p>
             </div>
         </div>
@@ -227,7 +230,7 @@
             </div>
             <div class="info-pts">
                 <h1>
-                    10,5264
+                    105,264
                 </h1>
                 <p>pts</p>
             </div>
@@ -244,7 +247,7 @@
             </div>
             <div class="info-pts">
                 <h1>
-                    10,5264
+                    105,264
                 </h1>
                 <p>pts</p>
             </div>
@@ -264,7 +267,7 @@
             </div>
             <div class="info-pts">
                 <h1>
-                    10,5264
+                    105,264
                 </h1>
                 <p>pts</p>
             </div>
@@ -282,7 +285,7 @@
             </div>
             <div class="info-pts">
                 <h1>
-                    10,5264
+                    105,264
                 </h1>
                 <p>pts</p>
             </div>
@@ -300,7 +303,7 @@
             </div>
             <div class="info-pts">
                 <h1>
-                    10,5512
+                    105,264
                 </h1>
                 <p>pts</p>
             </div>
@@ -313,11 +316,11 @@
         <div class="footer-card">
             <div class="footer-top">
                 <div class="your-rank">
-                  <div class="avatar">👨</div>
-                  <div>
-                    <h3>Your Rank</h3>
-                    <p>#4</p>
-                  </div>
+                    <div class="avatar">👨</div>
+                    <div>
+                        <h3>Your Rank</h3>
+                        <p>#4</p>
+                    </div>
                 </div>
 
                 <div class="points">
@@ -329,13 +332,13 @@
             <div class="progress-section">
 
                 <div class="progress-text">
-                  <span>Progress to Rank 3</span>
-                  <span>100 pts needed</span>
+                    <span>Progress to Rank 3</span>
+                    <span>100 pts needed</span>
                 </div>
 
 
                 <div class="progress-bar">
-                  <div class="progress-fill"></div>
+                    <div class="progress-fill"></div>
                 </div>
             </div>
 
@@ -343,27 +346,27 @@
             <p class="footer-msg">🔥 Keep going! You’re almost there!</p>
 
         </div>
-    </footer>      
+    </footer>
 
     <script src="./components/leaderboard.js"></script>
     <script>
-document.addEventListener("keydown", function (event) {
-  if (event.key === "Backspace") {
-    const tag = event.target.tagName.toLowerCase();
-    const isInput =
-      tag === "input" ||
-      tag === "textarea" ||
-      event.target.isContentEditable;
+        document.addEventListener("keydown", function (event) {
+            if (event.key === "Backspace") {
+                const tag = event.target.tagName.toLowerCase();
+                const isInput =
+                    tag === "input" ||
+                    tag === "textarea" ||
+                    event.target.isContentEditable;
 
-    if (!isInput) {
-      event.preventDefault(); // stop browser default
-      window.history.back();  // go back
-    }
-  }
-});
-</script>
+                if (!isInput) {
+                    event.preventDefault(); // stop browser default
+                    window.history.back();  // go back
+                }
+            }
+        });
+    </script>
 
-      
+
 </body>
 
 </html>
