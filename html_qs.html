@@ -240,7 +240,7 @@
   // Path to your questions folder
   async function loadData() {
     try {
-      const response = await fetch("../questions/html/eng.json");
+      const response = await fetch("./questions/html/eng.json");
       questions = await response.json();
       displayQuestion();
     } catch (err) {

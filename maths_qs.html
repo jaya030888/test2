@@ -241,7 +241,7 @@
   // Path to your questions folder
   async function loadData() {
     try {
-      const response = await fetch("../questions/maths/eng.json");
+      const response = await fetch("./questions/maths/eng.json");
       questions = await response.json();
       displayQuestion();
     } catch (err) {
