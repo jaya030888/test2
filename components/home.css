@@ -62,11 +62,26 @@ body {
   color: #ffffff;
 }
 
-.logout {
+#logout {
   margin-top: auto;
-  color: #718096;
+  font-size: 17px;
+  color: #262729;
   padding: 15px;
   cursor: pointer;
+  border: none;
+  background-color: white;
+
+}
+
+#logout:hover {
+  background: #2ecc46;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 
 /* Main Content Section */
