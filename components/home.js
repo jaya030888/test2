@@ -30,31 +30,31 @@ let start = function () {
 
 let html = function () {
 
-    window.location.href = "./html_qs.html";
+    window.location.href = "html_qs.html";
 }
 
 let css = function () {
 
-    window.location.href = "./css_qs.html";
+    window.location.href = "css_qs.html";
 }
 
 let js = function () {
 
-    window.location.href = "./js_qs.html";
+    window.location.href = "js_qs.html";
 }
 
 let python = function () {
 
-    window.location.href = "./python_qs.html";
+    window.location.href = "python_qs.html";
 }
 
 let maths = function () {
 
-    window.location.href = "./maths_qs.html";
+    window.location.href = "maths_qs.html";
 }
 
 let english = function () {
 
-    window.location.href = "./english_qs.html";
+    window.location.href = "english_qs.html";
 }
 
